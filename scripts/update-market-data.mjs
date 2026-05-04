@@ -6,6 +6,12 @@ const NAVER_HEADERS = {
   Referer: "https://finance.naver.com/",
 };
 
+const CNN_HEADERS = {
+  "Content-Type": "application/json",
+  "User-Agent":
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+};
+
 const instruments = [
   { symbol: "KOSPI", code: "KOSPI", name: "코스피", market: "KOSPI", type: "index" },
   { symbol: "KOSDAQ", code: "KOSDAQ", name: "코스닥", market: "KOSDAQ", type: "index" },
@@ -155,6 +161,21 @@ async function fetchExchange() {
   };
 }
 
+async function fetchFearGreed() {
+  const data = await fetchJson("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", CNN_HEADERS);
+  const current = data.fear_and_greed || {};
+  return {
+    score: numberFromText(current.score),
+    rating: current.rating || null,
+    previousClose: numberFromText(current.previous_close),
+    previousWeek: numberFromText(current.previous_1_week),
+    previousMonth: numberFromText(current.previous_1_month),
+    previousYear: numberFromText(current.previous_1_year),
+    source: "CNN",
+    updatedAt: current.timestamp || null,
+  };
+}
+
 const settledInstruments = await Promise.allSettled(instruments.map(fetchInstrument));
 const successfulInstruments = settledInstruments
   .map((result, index) => {
@@ -172,6 +193,7 @@ const payload = {
   generatedAt: new Date().toISOString(),
   source: "네이버 금융",
   exchange: await fetchExchange(),
+  fearGreed: await fetchFearGreed(),
   instruments: successfulInstruments,
 };
 

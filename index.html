@@ -3,19 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>한국 주식 모니터링</title>
+    <title>Market Monitor</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="app-shell">
       <header class="topbar">
-        <div>
-          <p class="eyebrow">KR Market Monitor</p>
-          <h1>한국 주식 모니터링</h1>
-        </div>
         <button class="refresh-button" id="refreshButton" type="button" aria-label="시세 갱신">
           <span aria-hidden="true">↻</span>
-          <span>갱신</span>
         </button>
       </header>
 
@@ -34,6 +29,11 @@
           <span>시장분위기</span>
           <strong id="marketMood">-</strong>
           <small id="marketMoodDetail">데이터 수집 중</small>
+        </article>
+        <article>
+          <span>CNN Fear & Greed</span>
+          <strong id="fearGreedScore">-</strong>
+          <small id="fearGreedDetail">-</small>
         </article>
       </section>
 

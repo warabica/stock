@@ -1,15 +1,14 @@
 :root {
   color-scheme: light;
-  --bg: #f4f7f4;
-  --ink: #17211c;
-  --muted: #66756d;
-  --line: #dce4dd;
+  --bg: #f7f8f6;
+  --ink: #18211c;
+  --muted: #68736d;
+  --line: #e0e6e1;
   --panel: #ffffff;
-  --panel-2: #edf6ef;
+  --panel-2: #f0f5f1;
   --accent: #0c7c59;
   --accent-2: #2d5f9a;
   --danger: #c04747;
-  --shadow: 0 18px 45px rgba(21, 37, 28, 0.08);
 }
 
 * {
@@ -19,11 +18,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background:
-    linear-gradient(180deg, rgba(244, 247, 244, 0.94), rgba(244, 247, 244, 1)),
-    url("https://images.unsplash.com/photo-1642790551116-18e150f248e0?auto=format&fit=crop&w=1800&q=80");
-  background-size: cover;
-  background-attachment: fixed;
+  background: var(--bg);
   color: var(--ink);
   font-family:
     Inter, "Pretendard", "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont,
@@ -35,61 +30,46 @@ button {
 }
 
 .app-shell {
-  width: min(1180px, calc(100% - 32px));
+  width: min(1120px, calc(100% - 28px));
   margin: 0 auto;
-  padding: 28px 0 42px;
+  padding: 16px 0 36px;
 }
 
 .topbar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-  min-height: 92px;
+  justify-content: flex-end;
+  min-height: 36px;
 }
 
-.eyebrow {
-  margin: 0 0 7px;
-  color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-h1,
 h2,
 p {
   margin: 0;
-}
-
-h1 {
-  font-size: clamp(1.9rem, 4vw, 3.25rem);
-  line-height: 1.08;
 }
 
 .refresh-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  min-width: 86px;
-  height: 38px;
-  border: 1px solid rgba(12, 124, 89, 0.22);
-  border-radius: 8px;
-  background: var(--accent);
-  color: white;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--muted);
   cursor: pointer;
-  font-weight: 800;
-  box-shadow: 0 10px 24px rgba(12, 124, 89, 0.2);
+}
+
+.refresh-button:hover {
+  color: var(--accent);
+  border-color: rgba(12, 124, 89, 0.35);
 }
 
 .refresh-button:disabled {
   cursor: wait;
-  opacity: 0.68;
+  opacity: 0.58;
 }
 
-.refresh-button.is-loading span:first-child {
+.refresh-button.is-loading span {
   animation: spin 0.9s linear infinite;
 }
 
@@ -101,23 +81,21 @@ h1 {
 
 .market-strip {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin: 14px 0 24px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 4px 0 20px;
 }
 
 .market-strip article,
 .watchlist,
 .chart-wrap {
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(220, 228, 221, 0.9);
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(12px);
+  background: var(--panel);
+  border: 1px solid var(--line);
 }
 
 .market-strip article {
-  min-height: 116px;
-  padding: 18px;
+  min-height: 104px;
+  padding: 16px;
   border-radius: 8px;
 }
 
@@ -130,14 +108,14 @@ h1 {
 
 .market-strip span {
   display: block;
-  margin-bottom: 13px;
-  font-size: 0.88rem;
+  margin-bottom: 12px;
+  font-size: 0.78rem;
   font-weight: 800;
 }
 
 .market-strip strong {
   display: block;
-  font-size: clamp(1.35rem, 3vw, 2.12rem);
+  font-size: clamp(1.28rem, 2.4vw, 1.9rem);
   line-height: 1;
 }
 
@@ -145,12 +123,12 @@ h1 {
   display: block;
   margin-top: 9px;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.8rem;
 }
 
 .watchlist-section,
 .chart-section {
-  margin-top: 24px;
+  margin-top: 20px;
 }
 
 .section-heading {
@@ -158,31 +136,31 @@ h1 {
   align-items: end;
   justify-content: space-between;
   gap: 18px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .section-heading h2 {
-  font-size: 1.16rem;
+  font-size: 1rem;
 }
 
 .section-heading p {
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   text-align: right;
 }
 
 .watchlist {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
   overflow: hidden;
   border-radius: 8px;
 }
 
 .stock-card {
-  min-height: 136px;
-  padding: 18px;
+  min-height: 126px;
+  padding: 16px;
   border: 0;
-  background: rgba(255, 255, 255, 0.78);
+  background: var(--panel);
   color: inherit;
   text-align: left;
   cursor: pointer;
@@ -194,48 +172,48 @@ h1 {
 }
 
 .stock-card.is-active {
-  outline: 2px solid rgba(12, 124, 89, 0.35);
-  outline-offset: -2px;
+  outline: 1px solid rgba(12, 124, 89, 0.45);
+  outline-offset: -1px;
 }
 
 .stock-head {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  min-height: 43px;
+  min-height: 42px;
 }
 
 .stock-name {
   display: block;
   margin-top: 3px;
-  font-size: 0.81rem;
+  font-size: 0.78rem;
   line-height: 1.25;
   word-break: keep-all;
 }
 
 .stock-symbol {
   color: var(--ink);
-  font-size: 0.98rem;
+  font-size: 0.92rem;
   font-weight: 850;
 }
 
 .stock-market {
   flex: 0 0 auto;
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 0.7rem;
   font-weight: 800;
 }
 
 .stock-price {
-  margin-top: 18px;
-  font-size: 1.55rem;
+  margin-top: 16px;
+  font-size: 1.36rem;
   font-weight: 900;
   line-height: 1;
 }
 
 .stock-change {
-  margin-top: 9px;
-  font-size: 0.91rem;
+  margin-top: 8px;
+  font-size: 0.86rem;
   font-weight: 850;
 }
 
@@ -248,13 +226,13 @@ h1 {
 }
 
 .stock-meta {
-  margin-top: 12px;
-  font-size: 0.78rem;
+  margin-top: 10px;
+  font-size: 0.74rem;
 }
 
 .chart-wrap {
-  height: 380px;
-  padding: 18px;
+  height: 360px;
+  padding: 16px;
   border-radius: 8px;
 }
 
@@ -264,20 +242,17 @@ h1 {
   height: 100%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
+  .market-strip,
   .watchlist {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 640px) {
   .app-shell {
-    width: min(100% - 22px, 1180px);
-    padding-top: 18px;
-  }
-
-  .topbar {
-    min-height: 82px;
+    width: min(100% - 20px, 1120px);
+    padding-top: 12px;
   }
 
   .market-strip,
@@ -295,7 +270,7 @@ h1 {
   }
 
   .chart-wrap {
-    height: 320px;
-    padding: 12px;
+    height: 310px;
+    padding: 10px;
   }
 }

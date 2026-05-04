@@ -14,6 +14,7 @@ const instruments = [
 let selectedSymbol = "005930";
 let quoteMap = new Map();
 let exchangeRate = { price: 1470, previousClose: 1475.5, source: "대체 데이터" };
+let fearGreed = { score: null, rating: "-", source: "대체 데이터" };
 let chartData = [];
 let generatedAt = null;
 let dataSourceLabel = "대체 데이터";
@@ -39,6 +40,8 @@ const timeFormatter = new Intl.DateTimeFormat("ko-KR", {
 
 const els = {
   exchangeRate: document.querySelector("#exchangeRate"),
+  fearGreedScore: document.querySelector("#fearGreedScore"),
+  fearGreedDetail: document.querySelector("#fearGreedDetail"),
   baseDate: document.querySelector("#baseDate"),
   baseTime: document.querySelector("#baseTime"),
   marketMood: document.querySelector("#marketMood"),
@@ -99,6 +102,7 @@ async function loadMarketData() {
     generatedAt = data.generatedAt ? new Date(data.generatedAt) : null;
     dataSourceLabel = data.source || "네이버 금융";
     exchangeRate = data.exchange || exchangeRate;
+    fearGreed = data.fearGreed || fearGreed;
     quoteMap = new Map(
       instruments.map((item) => {
         const quote = data.instruments?.find((entry) => entry.symbol === item.symbol || entry.code === item.code);
@@ -143,6 +147,10 @@ function renderSummary() {
   const base = generatedAt || new Date();
 
   els.exchangeRate.textContent = `${priceFormatter.format(Number(exchangeRate.price || 0))}원`;
+  els.fearGreedScore.textContent = Number.isFinite(Number(fearGreed.score))
+    ? Math.round(Number(fearGreed.score)).toString()
+    : "-";
+  els.fearGreedDetail.textContent = fearGreed.rating ? `${fearGreed.rating} · ${fearGreed.source || "CNN"}` : "-";
   els.baseDate.textContent = dateFormatter.format(base);
   els.baseTime.textContent = `${timeFormatter.format(base)} 기준`;
   els.marketMood.textContent = mood;
