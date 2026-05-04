@@ -1,25 +1,27 @@
-const QUOTE_ENDPOINT = "https://query1.finance.yahoo.com/v8/finance/chart/";
+const DATA_URL = "data/market.json";
 
 const instruments = [
-  { symbol: "^KS11", name: "코스피", market: "KOSPI", fallback: 2650 },
-  { symbol: "^KQ11", name: "코스닥", market: "KOSDAQ", fallback: 845 },
-  { symbol: "005930.KS", name: "삼성전자", market: "KOSPI", fallback: 76000 },
-  { symbol: "000660.KS", name: "SK하이닉스", market: "KOSPI", fallback: 178000 },
-  { symbol: "087010.KQ", name: "펩트론", market: "KOSDAQ", fallback: 72000 },
-  { symbol: "469150.KS", name: "ACE AI반도체TOP3Plus", market: "ETF", fallback: 15300 },
-  { symbol: "447620.KS", name: "RISE 삼성전자SK하이닉스채권혼합50", market: "ETF", fallback: 11100 },
-  { symbol: "229200.KS", name: "KODEX 코스닥150", market: "ETF", fallback: 13700 },
+  { symbol: "KOSPI", code: "KOSPI", name: "코스피", market: "KOSPI", fallback: 2650 },
+  { symbol: "KOSDAQ", code: "KOSDAQ", name: "코스닥", market: "KOSDAQ", fallback: 845 },
+  { symbol: "005930", code: "005930", name: "삼성전자", market: "KOSPI", fallback: 76000 },
+  { symbol: "000660", code: "000660", name: "SK하이닉스", market: "KOSPI", fallback: 178000 },
+  { symbol: "087010", code: "087010", name: "펩트론", market: "KOSDAQ", fallback: 72000 },
+  { symbol: "469150", code: "469150", name: "ACE AI반도체TOP3Plus", market: "ETF", fallback: 15300 },
+  { symbol: "0162Z0", code: "0162Z0", name: "RISE 삼성전자SK하이닉스채권혼합50", market: "ETF", fallback: 11100 },
+  { symbol: "229200", code: "229200", name: "KODEX 코스닥150", market: "ETF", fallback: 13700 },
 ];
 
-const fallbackRates = {
-  "KRW=X": { price: 1368.4, previousClose: 1362.2 },
-};
-
-let selectedSymbol = "005930.KS";
+let selectedSymbol = "005930";
 let quoteMap = new Map();
+let exchangeRate = { price: 1470, previousClose: 1475.5, source: "대체 데이터" };
 let chartData = [];
+let generatedAt = null;
+let dataSourceLabel = "대체 데이터";
 
 const formatter = new Intl.NumberFormat("ko-KR");
+const priceFormatter = new Intl.NumberFormat("ko-KR", {
+  maximumFractionDigits: 2,
+});
 const percentFormatter = new Intl.NumberFormat("ko-KR", {
   minimumFractionDigits: 2,
   maximumFractionDigits: 2,
@@ -49,30 +51,6 @@ const els = {
   chartSubtitle: document.querySelector("#chartSubtitle"),
 };
 
-async function fetchChart(symbol, range = "1d", interval = "1m") {
-  const url = `${QUOTE_ENDPOINT}${encodeURIComponent(symbol)}?range=${range}&interval=${interval}`;
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`${symbol} quote failed`);
-  const data = await response.json();
-  const result = data.chart?.result?.[0];
-  if (!result) throw new Error(`${symbol} quote missing`);
-
-  const quote = result.indicators?.quote?.[0] || {};
-  const closes = (quote.close || []).filter((value) => Number.isFinite(value));
-  const currentPrice = result.meta?.regularMarketPrice ?? closes.at(-1);
-  const previousClose = result.meta?.chartPreviousClose ?? result.meta?.previousClose ?? closes.at(0);
-
-  return {
-    symbol,
-    currency: result.meta?.currency || "KRW",
-    timestamp: result.timestamp || [],
-    close: quote.close || [],
-    price: Number(currentPrice),
-    previousClose: Number(previousClose),
-    regularMarketTime: result.meta?.regularMarketTime,
-  };
-}
-
 function syntheticSeries(basePrice) {
   const now = Date.now();
   return Array.from({ length: 30 }, (_, index) => {
@@ -89,78 +67,82 @@ function fallbackQuote(item) {
   const series = syntheticSeries(item.fallback);
   return {
     symbol: item.symbol,
-    currency: item.symbol.startsWith("^") ? "KRW" : "KRW",
-    timestamp: series.map((point) => Math.floor(point.date.getTime() / 1000)),
-    close: series.map((point) => point.close),
+    code: item.code,
+    name: item.name,
+    market: item.market,
     price: series.at(-1).close,
     previousClose: series.at(-2).close,
-    regularMarketTime: Math.floor(Date.now() / 1000),
+    change: series.at(-1).close - series.at(-2).close,
+    percent: ((series.at(-1).close - series.at(-2).close) / series.at(-2).close) * 100,
+    source: "대체 데이터",
+    chart: series.map((point) => ({
+      date: point.date.toISOString().slice(0, 10),
+      close: point.close,
+    })),
     isFallback: true,
   };
 }
 
-async function loadQuotes() {
-  const requests = instruments.map(async (item) => {
-    try {
-      return [item.symbol, await fetchChart(item.symbol)];
-    } catch {
-      return [item.symbol, fallbackQuote(item)];
-    }
-  });
-  quoteMap = new Map(await Promise.all(requests));
+function normalizePoint(point) {
+  return {
+    date: new Date(point.date),
+    close: Number(point.close),
+  };
+}
 
+async function loadMarketData() {
   try {
-    const exchange = await fetchChart("KRW=X");
-    fallbackRates["KRW=X"] = exchange;
+    const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) throw new Error("market data unavailable");
+    const data = await response.json();
+
+    generatedAt = data.generatedAt ? new Date(data.generatedAt) : null;
+    dataSourceLabel = data.source || "네이버 금융";
+    exchangeRate = data.exchange || exchangeRate;
+    quoteMap = new Map(
+      instruments.map((item) => {
+        const quote = data.instruments?.find((entry) => entry.symbol === item.symbol || entry.code === item.code);
+        return [item.symbol, quote ? { ...item, ...quote } : fallbackQuote(item)];
+      }),
+    );
   } catch {
-    fallbackRates["KRW=X"].isFallback = true;
+    generatedAt = new Date();
+    dataSourceLabel = "대체 데이터";
+    quoteMap = new Map(instruments.map((item) => [item.symbol, fallbackQuote(item)]));
   }
 }
 
-async function loadSelectedChart() {
+function loadSelectedChart() {
   const item = instruments.find((entry) => entry.symbol === selectedSymbol) || instruments[2];
-  try {
-    const data = await fetchChart(selectedSymbol, "1mo", "1d");
-    chartData = data.timestamp
-      .map((timestamp, index) => ({
-        date: new Date(timestamp * 1000),
-        close: data.close[index],
-      }))
-      .filter((point) => Number.isFinite(point.close));
-  } catch {
-    chartData = syntheticSeries(item.fallback);
-  }
+  const quote = quoteMap.get(selectedSymbol) || fallbackQuote(item);
+  const sourceChart = Array.isArray(quote.chart) && quote.chart.length ? quote.chart : fallbackQuote(item).chart;
+  chartData = sourceChart.map(normalizePoint).filter((point) => Number.isFinite(point.close));
 }
 
 function changeInfo(quote) {
   const price = Number(quote.price);
   const previous = Number(quote.previousClose);
-  const change = price - previous;
-  const percent = previous ? (change / previous) * 100 : 0;
+  const change = Number.isFinite(Number(quote.change)) ? Number(quote.change) : price - previous;
+  const percent = Number.isFinite(Number(quote.percent)) ? Number(quote.percent) : previous ? (change / previous) * 100 : 0;
   return { price, change, percent };
 }
 
 function priceText(quote, symbol) {
   const value = Number(quote.price);
   if (!Number.isFinite(value)) return "-";
-  if (symbol === "KRW=X") return `${formatter.format(value.toFixed(2))}원`;
-  if (symbol.startsWith("^")) return formatter.format(value.toFixed(2));
+  if (symbol === "KOSPI" || symbol === "KOSDAQ") return priceFormatter.format(value);
   return `${formatter.format(Math.round(value))}원`;
 }
 
 function renderSummary() {
-  const exchange = fallbackRates["KRW=X"];
-  const kospi = quoteMap.get("^KS11");
-  const kosdaq = quoteMap.get("^KQ11");
+  const kospi = quoteMap.get("KOSPI");
+  const kosdaq = quoteMap.get("KOSDAQ");
   const marketScores = [kospi, kosdaq].filter(Boolean).map((quote) => changeInfo(quote).percent);
   const average = marketScores.reduce((sum, value) => sum + value, 0) / Math.max(1, marketScores.length);
   const mood = average > 0.35 ? "위험선호" : average < -0.35 ? "방어적" : "중립";
-  const latestTime = Math.max(
-    ...[...quoteMap.values(), exchange].map((quote) => quote?.regularMarketTime || 0),
-  );
-  const base = latestTime ? new Date(latestTime * 1000) : new Date();
+  const base = generatedAt || new Date();
 
-  els.exchangeRate.textContent = priceText(exchange, "KRW=X");
+  els.exchangeRate.textContent = `${priceFormatter.format(Number(exchangeRate.price || 0))}원`;
   els.baseDate.textContent = dateFormatter.format(base);
   els.baseTime.textContent = `${timeFormatter.format(base)} 기준`;
   els.marketMood.textContent = mood;
@@ -183,23 +165,23 @@ function renderWatchlist() {
     button.innerHTML = `
       <div class="stock-head">
         <div>
-          <span class="stock-symbol">${item.symbol.replace(".KS", "").replace(".KQ", "")}</span>
+          <span class="stock-symbol">${item.code}</span>
           <span class="stock-name">${item.name}</span>
         </div>
         <span class="stock-market">${item.market}</span>
       </div>
       <div class="stock-price">${priceText(quote, item.symbol)}</div>
       <div class="stock-change ${direction}">
-        ${sign}${formatter.format(info.change.toFixed(item.symbol.startsWith("^") ? 2 : 0))}
+        ${sign}${priceFormatter.format(Math.abs(info.change))}
         (${sign}${percentFormatter.format(info.percent)}%)
       </div>
-      <div class="stock-meta">${quote.isFallback ? "대체 데이터 표시 중" : "Yahoo Finance"}</div>
+      <div class="stock-meta">${quote.source || dataSourceLabel}</div>
     `;
 
-    button.addEventListener("click", async () => {
+    button.addEventListener("click", () => {
       selectedSymbol = item.symbol;
       renderWatchlist();
-      await loadSelectedChart();
+      loadSelectedChart();
       renderChart();
     });
 
@@ -242,7 +224,7 @@ function renderChart() {
     context.moveTo(pad.left, y);
     context.lineTo(rect.width - pad.right, y);
     context.stroke();
-    context.fillText(formatter.format(Math.round(value)), 8, y + 4);
+    context.fillText(priceFormatter.format(Math.round(value)), 8, y + 4);
   }
 
   const xFor = (index) => pad.left + (width * index) / Math.max(1, points.length - 1);
@@ -287,18 +269,18 @@ function renderChart() {
 async function refresh() {
   els.refreshButton.disabled = true;
   els.refreshButton.classList.add("is-loading");
-  els.statusText.textContent = "시세를 갱신하는 중입니다.";
+  els.statusText.textContent = "네이버 금융 데이터를 불러오는 중입니다.";
 
-  await loadQuotes();
-  await loadSelectedChart();
+  await loadMarketData();
+  loadSelectedChart();
   renderSummary();
   renderWatchlist();
   renderChart();
 
-  const hasFallback = [...quoteMap.values(), fallbackRates["KRW=X"]].some((quote) => quote?.isFallback);
-  els.statusText.textContent = hasFallback
-    ? "일부 항목은 네트워크 제한으로 대체 데이터를 표시 중입니다."
-    : "최신 시세가 반영되었습니다.";
+  els.statusText.textContent =
+    dataSourceLabel === "대체 데이터"
+      ? "데이터 파일을 찾지 못해 대체 데이터를 표시 중입니다."
+      : `${dataSourceLabel} 기준 데이터가 반영되었습니다.`;
   els.refreshButton.disabled = false;
   els.refreshButton.classList.remove("is-loading");
 }

@@ -1,0 +1,2319 @@
+{
+  "generatedAt": "2026-05-04T14:38:49.012Z",
+  "source": "네이버 금융",
+  "exchange": {
+    "symbol": "USD/KRW",
+    "price": 1469.7,
+    "previousClose": 1475.5,
+    "change": -5.8,
+    "percent": -0.39,
+    "source": "네이버 금융",
+    "updatedAt": "2026-05-04T22:01:15+09:00"
+  },
+  "instruments": [
+    {
+      "symbol": "KOSPI",
+      "code": "KOSPI",
+      "name": "코스피",
+      "market": "KOSPI",
+      "type": "index",
+      "price": 6936.99,
+      "previousClose": 6598.87,
+      "change": 338.1199999999999,
+      "percent": 5.123907578115645,
+      "chart": [
+        {
+          "date": "2026-03-23",
+          "open": 5580.15,
+          "high": 5580.15,
+          "low": 5397.94,
+          "close": 5405.75,
+          "volume": 1125620,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-24",
+          "open": 5638.2,
+          "high": 5643,
+          "low": 5395.17,
+          "close": 5553.92,
+          "volume": 1170518,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-25",
+          "open": 5680.33,
+          "high": 5740.97,
+          "low": 5630.07,
+          "close": 5642.21,
+          "volume": 763224,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-26",
+          "open": 5594.06,
+          "high": 5598.37,
+          "low": 5448.12,
+          "close": 5460.46,
+          "volume": 925093,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-27",
+          "open": 5300.61,
+          "high": 5462.51,
+          "low": 5220.1,
+          "close": 5438.87,
+          "volume": 900081,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-30",
+          "open": 5181.8,
+          "high": 5297.35,
+          "low": 5151.22,
+          "close": 5277.3,
+          "volume": 727391,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-31",
+          "open": 5143.75,
+          "high": 5233.99,
+          "low": 5042.99,
+          "close": 5052.46,
+          "volume": 1163312,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-01",
+          "open": 5330.04,
+          "high": 5512.33,
+          "low": 5272.45,
+          "close": 5478.7,
+          "volume": 958953,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-02",
+          "open": 5551.69,
+          "high": 5574.62,
+          "low": 5170.27,
+          "close": 5234.05,
+          "volume": 1428160,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-03",
+          "open": 5375.5,
+          "high": 5419.45,
+          "low": 5316.42,
+          "close": 5377.3,
+          "volume": 1185178,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-06",
+          "open": 5423.35,
+          "high": 5505.61,
+          "low": 5404.91,
+          "close": 5450.33,
+          "volume": 1110507,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-07",
+          "open": 5552.19,
+          "high": 5594.9,
+          "low": 5424.46,
+          "close": 5494.78,
+          "volume": 990449,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-08",
+          "open": 5804.7,
+          "high": 5919.6,
+          "low": 5774,
+          "close": 5872.34,
+          "volume": 932610,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-09",
+          "open": 5826.45,
+          "high": 5862.41,
+          "low": 5757.49,
+          "close": 5778.01,
+          "volume": 1026733,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-10",
+          "open": 5876.12,
+          "high": 5918.59,
+          "low": 5850.83,
+          "close": 5858.87,
+          "volume": 1002354,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-13",
+          "open": 5737.28,
+          "high": 5827.73,
+          "low": 5730.23,
+          "close": 5808.62,
+          "volume": 1083211,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-14",
+          "open": 5960,
+          "high": 6026.52,
+          "low": 5938.33,
+          "close": 5967.75,
+          "volume": 889491,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-15",
+          "open": 6141.6,
+          "high": 6183.21,
+          "low": 6064.23,
+          "close": 6091.39,
+          "volume": 923846,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-16",
+          "open": 6149.49,
+          "high": 6231.03,
+          "low": 6126.06,
+          "close": 6226.05,
+          "volume": 925695,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-17",
+          "open": 6227.33,
+          "high": 6230.32,
+          "low": 6159.88,
+          "close": 6191.92,
+          "volume": 689740,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-20",
+          "open": 6213.92,
+          "high": 6278.36,
+          "low": 6176.75,
+          "close": 6219.09,
+          "volume": 692878,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-21",
+          "open": 6302.54,
+          "high": 6388.47,
+          "low": 6302.54,
+          "close": 6388.47,
+          "volume": 792022,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-22",
+          "open": 6387.57,
+          "high": 6423.29,
+          "low": 6318.51,
+          "close": 6417.93,
+          "volume": 900140,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-23",
+          "open": 6488.83,
+          "high": 6557.76,
+          "low": 6309.1,
+          "close": 6475.81,
+          "volume": 1042392,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-24",
+          "open": 6496.1,
+          "high": 6516.54,
+          "low": 6403.74,
+          "close": 6475.63,
+          "volume": 878201,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-27",
+          "open": 6533.6,
+          "high": 6657.22,
+          "low": 6529.19,
+          "close": 6615.03,
+          "volume": 842664,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-28",
+          "open": 6646.8,
+          "high": 6712.73,
+          "low": 6621.73,
+          "close": 6641.02,
+          "volume": 1139472,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-29",
+          "open": 6619,
+          "high": 6702.38,
+          "low": 6596.03,
+          "close": 6690.9,
+          "volume": 717859,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-30",
+          "open": 6739.39,
+          "high": 6750.27,
+          "low": 6597.83,
+          "close": 6598.87,
+          "volume": 685459,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-05-04",
+          "open": 6782.93,
+          "high": 6937,
+          "low": 6741.63,
+          "close": 6936.99,
+          "volume": 873009,
+          "foreignRatio": 0
+        }
+      ],
+      "source": "네이버 금융",
+      "updatedAt": "2026-05-04"
+    },
+    {
+      "symbol": "KOSDAQ",
+      "code": "KOSDAQ",
+      "name": "코스닥",
+      "market": "KOSDAQ",
+      "type": "index",
+      "price": 1213.74,
+      "previousClose": 1192.35,
+      "change": 21.3900000000001,
+      "percent": 1.7939363441942469,
+      "chart": [
+        {
+          "date": "2026-03-23",
+          "open": 1129.86,
+          "high": 1130.44,
+          "low": 1095.56,
+          "close": 1096.89,
+          "volume": 1059627,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-24",
+          "open": 1134.16,
+          "high": 1135.71,
+          "low": 1094.67,
+          "close": 1121.44,
+          "volume": 1237347,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-25",
+          "open": 1133.31,
+          "high": 1160.06,
+          "low": 1131.77,
+          "close": 1159.55,
+          "volume": 1133746,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-26",
+          "open": 1159.61,
+          "high": 1169.46,
+          "low": 1135.33,
+          "close": 1136.64,
+          "volume": 1158122,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-27",
+          "open": 1119.77,
+          "high": 1146.07,
+          "low": 1101.93,
+          "close": 1141.51,
+          "volume": 1463268,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-30",
+          "open": 1101.77,
+          "high": 1113.79,
+          "low": 1094.48,
+          "close": 1107.05,
+          "volume": 1133950,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-03-31",
+          "open": 1099.08,
+          "high": 1099.08,
+          "low": 1049.76,
+          "close": 1052.39,
+          "volume": 1228504,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-01",
+          "open": 1090.36,
+          "high": 1122.8,
+          "low": 1089.31,
+          "close": 1116.18,
+          "volume": 1055086,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-02",
+          "open": 1130.16,
+          "high": 1132.4,
+          "low": 1040.07,
+          "close": 1056.34,
+          "volume": 1530434,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-03",
+          "open": 1079.17,
+          "high": 1083.24,
+          "low": 1054.12,
+          "close": 1063.75,
+          "volume": 953913,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-06",
+          "open": 1068.33,
+          "high": 1077.04,
+          "low": 1044.85,
+          "close": 1047.37,
+          "volume": 1176731,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-07",
+          "open": 1060.25,
+          "high": 1068.86,
+          "low": 1026.95,
+          "close": 1036.73,
+          "volume": 1154251,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-08",
+          "open": 1084.57,
+          "high": 1090.04,
+          "low": 1071.35,
+          "close": 1089.85,
+          "volume": 1198291,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-09",
+          "open": 1083.4,
+          "high": 1091.38,
+          "low": 1068.82,
+          "close": 1076,
+          "volume": 1223574,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-10",
+          "open": 1089.14,
+          "high": 1098.43,
+          "low": 1082.92,
+          "close": 1093.63,
+          "volume": 1516075,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-13",
+          "open": 1076.85,
+          "high": 1101.11,
+          "low": 1074.84,
+          "close": 1099.84,
+          "volume": 1282994,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-14",
+          "open": 1120.61,
+          "high": 1125.92,
+          "low": 1118.05,
+          "close": 1121.88,
+          "volume": 1429628,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-15",
+          "open": 1140.62,
+          "high": 1156.02,
+          "low": 1135.35,
+          "close": 1152.43,
+          "volume": 1533312,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-16",
+          "open": 1163,
+          "high": 1168.77,
+          "low": 1156.31,
+          "close": 1162.97,
+          "volume": 1902506,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-17",
+          "open": 1166.78,
+          "high": 1170.63,
+          "low": 1156.02,
+          "close": 1170.04,
+          "volume": 1836660,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-20",
+          "open": 1167.1,
+          "high": 1186.2,
+          "low": 1161,
+          "close": 1174.85,
+          "volume": 1488715,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-21",
+          "open": 1186.23,
+          "high": 1187,
+          "low": 1172.18,
+          "close": 1179.03,
+          "volume": 1571861,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-22",
+          "open": 1176.83,
+          "high": 1181.12,
+          "low": 1160.5,
+          "close": 1181.12,
+          "volume": 1427239,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-23",
+          "open": 1189.1,
+          "high": 1189.49,
+          "low": 1152.34,
+          "close": 1174.31,
+          "volume": 1687849,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-24",
+          "open": 1176.42,
+          "high": 1203.84,
+          "low": 1172.32,
+          "close": 1203.84,
+          "volume": 1402973,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-27",
+          "open": 1213.13,
+          "high": 1229.42,
+          "low": 1209.28,
+          "close": 1226.18,
+          "volume": 1523708,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-28",
+          "open": 1226.76,
+          "high": 1226.76,
+          "low": 1207.47,
+          "close": 1215.58,
+          "volume": 1527372,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-29",
+          "open": 1213.28,
+          "high": 1220.94,
+          "low": 1206.11,
+          "close": 1220.26,
+          "volume": 1255886,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-04-30",
+          "open": 1224.75,
+          "high": 1225.26,
+          "low": 1189.52,
+          "close": 1192.35,
+          "volume": 1386410,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-05-04",
+          "open": 1212.28,
+          "high": 1222.65,
+          "low": 1211.39,
+          "close": 1213.74,
+          "volume": 1176129,
+          "foreignRatio": 0
+        }
+      ],
+      "source": "네이버 금융",
+      "updatedAt": "2026-05-04"
+    },
+    {
+      "symbol": "005930",
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI",
+      "type": "equity",
+      "price": 232500,
+      "previousClose": 220500,
+      "change": 12000,
+      "percent": 5.44,
+      "high": 232500,
+      "low": 224000,
+      "volume": 31909907,
+      "amount": 7302350,
+      "chart": [
+        {
+          "date": "2026-03-23",
+          "open": 190500,
+          "high": 191200,
+          "low": 186300,
+          "close": 186300,
+          "volume": 30268173,
+          "foreignRatio": 49.34
+        },
+        {
+          "date": "2026-03-24",
+          "open": 195500,
+          "high": 196000,
+          "low": 185500,
+          "close": 189700,
+          "volume": 25458914,
+          "foreignRatio": 49.21
+        },
+        {
+          "date": "2026-03-25",
+          "open": 193700,
+          "high": 196400,
+          "low": 189000,
+          "close": 189000,
+          "volume": 22995904,
+          "foreignRatio": 49.12
+        },
+        {
+          "date": "2026-03-26",
+          "open": 185500,
+          "high": 185900,
+          "low": 178900,
+          "close": 180100,
+          "volume": 32074131,
+          "foreignRatio": 48.9
+        },
+        {
+          "date": "2026-03-27",
+          "open": 172100,
+          "high": 181700,
+          "low": 172000,
+          "close": 179700,
+          "volume": 29138966,
+          "foreignRatio": 48.7
+        },
+        {
+          "date": "2026-03-30",
+          "open": 171000,
+          "high": 176650,
+          "low": 170600,
+          "close": 176300,
+          "volume": 22269147,
+          "foreignRatio": 48.62
+        },
+        {
+          "date": "2026-03-31",
+          "open": 170000,
+          "high": 174700,
+          "low": 167000,
+          "close": 167200,
+          "volume": 38659593,
+          "foreignRatio": 48.41
+        },
+        {
+          "date": "2026-04-01",
+          "open": 179000,
+          "high": 190800,
+          "low": 178000,
+          "close": 189600,
+          "volume": 32390251,
+          "foreignRatio": 48.43
+        },
+        {
+          "date": "2026-04-02",
+          "open": 192600,
+          "high": 193600,
+          "low": 175000,
+          "close": 178400,
+          "volume": 38615231,
+          "foreignRatio": 48.4
+        },
+        {
+          "date": "2026-04-03",
+          "open": 184200,
+          "high": 187200,
+          "low": 182700,
+          "close": 186200,
+          "volume": 20194447,
+          "foreignRatio": 48.41
+        },
+        {
+          "date": "2026-04-06",
+          "open": 190900,
+          "high": 194600,
+          "low": 190100,
+          "close": 193100,
+          "volume": 20635958,
+          "foreignRatio": 48.44
+        },
+        {
+          "date": "2026-04-07",
+          "open": 202000,
+          "high": 202500,
+          "low": 192400,
+          "close": 196500,
+          "volume": 30848053,
+          "foreignRatio": 48.4
+        },
+        {
+          "date": "2026-04-08",
+          "open": 214000,
+          "high": 214500,
+          "low": 207500,
+          "close": 210500,
+          "volume": 35890973,
+          "foreignRatio": 48.46
+        },
+        {
+          "date": "2026-04-09",
+          "open": 207000,
+          "high": 207500,
+          "low": 202000,
+          "close": 204000,
+          "volume": 42320839,
+          "foreignRatio": 48.64
+        },
+        {
+          "date": "2026-04-10",
+          "open": 208500,
+          "high": 211000,
+          "low": 205500,
+          "close": 206000,
+          "volume": 18244459,
+          "foreignRatio": 48.65
+        },
+        {
+          "date": "2026-04-13",
+          "open": 198200,
+          "high": 203000,
+          "low": 198200,
+          "close": 201000,
+          "volume": 19603415,
+          "foreignRatio": 49.23
+        },
+        {
+          "date": "2026-04-14",
+          "open": 208000,
+          "high": 210000,
+          "low": 205500,
+          "close": 206500,
+          "volume": 23672078,
+          "foreignRatio": 49.23
+        },
+        {
+          "date": "2026-04-15",
+          "open": 215000,
+          "high": 215500,
+          "low": 210000,
+          "close": 211000,
+          "volume": 24092884,
+          "foreignRatio": 49.23
+        },
+        {
+          "date": "2026-04-16",
+          "open": 212000,
+          "high": 218000,
+          "low": 210500,
+          "close": 217500,
+          "volume": 21499788,
+          "foreignRatio": 49.26
+        },
+        {
+          "date": "2026-04-17",
+          "open": 217000,
+          "high": 218000,
+          "low": 215000,
+          "close": 216000,
+          "volume": 18079322,
+          "foreignRatio": 49.2
+        },
+        {
+          "date": "2026-04-20",
+          "open": 214500,
+          "high": 219000,
+          "low": 213000,
+          "close": 214500,
+          "volume": 17107741,
+          "foreignRatio": 49.14
+        },
+        {
+          "date": "2026-04-21",
+          "open": 218000,
+          "high": 220000,
+          "low": 216000,
+          "close": 219000,
+          "volume": 16752132,
+          "foreignRatio": 49.18
+        },
+        {
+          "date": "2026-04-22",
+          "open": 218500,
+          "high": 222500,
+          "low": 215500,
+          "close": 217500,
+          "volume": 16823480,
+          "foreignRatio": 49.16
+        },
+        {
+          "date": "2026-04-23",
+          "open": 223000,
+          "high": 229500,
+          "low": 216000,
+          "close": 224500,
+          "volume": 34525485,
+          "foreignRatio": 49.24
+        },
+        {
+          "date": "2026-04-24",
+          "open": 224000,
+          "high": 225000,
+          "low": 216500,
+          "close": 219500,
+          "volume": 19626666,
+          "foreignRatio": 49.14
+        },
+        {
+          "date": "2026-04-27",
+          "open": 220000,
+          "high": 226000,
+          "low": 218500,
+          "close": 224500,
+          "volume": 22870374,
+          "foreignRatio": 49.25
+        },
+        {
+          "date": "2026-04-28",
+          "open": 224000,
+          "high": 226000,
+          "low": 221500,
+          "close": 222000,
+          "volume": 18444490,
+          "foreignRatio": 49.19
+        },
+        {
+          "date": "2026-04-29",
+          "open": 219500,
+          "high": 228000,
+          "low": 218500,
+          "close": 226000,
+          "volume": 20363756,
+          "foreignRatio": 49.27
+        },
+        {
+          "date": "2026-04-30",
+          "open": 229000,
+          "high": 230000,
+          "low": 220500,
+          "close": 220500,
+          "volume": 22161975,
+          "foreignRatio": 49.24
+        },
+        {
+          "date": "2026-05-04",
+          "open": 228000,
+          "high": 232500,
+          "low": 224000,
+          "close": 232500,
+          "volume": 31909907,
+          "foreignRatio": 49.24
+        }
+      ],
+      "source": "네이버 금융",
+      "updatedAt": "2026-05-04"
+    },
+    {
+      "symbol": "000660",
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "KOSPI",
+      "type": "equity",
+      "price": 1447000,
+      "previousClose": 1286000,
+      "change": 161000,
+      "percent": 12.52,
+      "high": 1450000,
+      "low": 1333000,
+      "volume": 5652112,
+      "amount": 7920679,
+      "chart": [
+        {
+          "date": "2026-03-23",
+          "open": 952000,
+          "high": 963000,
+          "low": 927000,
+          "close": 933000,
+          "volume": 3911813,
+          "foreignRatio": 53.43
+        },
+        {
+          "date": "2026-03-24",
+          "open": 993000,
+          "high": 994000,
+          "low": 938000,
+          "close": 986000,
+          "volume": 4352152,
+          "foreignRatio": 53.41
+        },
+        {
+          "date": "2026-03-25",
+          "open": 1016000,
+          "high": 1042000,
+          "low": 988000,
+          "close": 995000,
+          "volume": 4463869,
+          "foreignRatio": 53.35
+        },
+        {
+          "date": "2026-03-26",
+          "open": 965000,
+          "high": 973000,
+          "low": 931000,
+          "close": 933000,
+          "volume": 4660620,
+          "foreignRatio": 53.21
+        },
+        {
+          "date": "2026-03-27",
+          "open": 890000,
+          "high": 934000,
+          "low": 880000,
+          "close": 922000,
+          "volume": 4520942,
+          "foreignRatio": 53.05
+        },
+        {
+          "date": "2026-03-30",
+          "open": 867000,
+          "high": 884000,
+          "low": 862000,
+          "close": 873000,
+          "volume": 4498502,
+          "foreignRatio": 52.88
+        },
+        {
+          "date": "2026-03-31",
+          "open": 817000,
+          "high": 852000,
+          "low": 806000,
+          "close": 807000,
+          "volume": 7194351,
+          "foreignRatio": 52.69
+        },
+        {
+          "date": "2026-04-01",
+          "open": 884000,
+          "high": 905000,
+          "low": 858000,
+          "close": 893000,
+          "volume": 6255058,
+          "foreignRatio": 52.62
+        },
+        {
+          "date": "2026-04-02",
+          "open": 912000,
+          "high": 914000,
+          "low": 818000,
+          "close": 830000,
+          "volume": 6127534,
+          "foreignRatio": 52.57
+        },
+        {
+          "date": "2026-04-03",
+          "open": 867000,
+          "high": 886000,
+          "low": 860000,
+          "close": 876000,
+          "volume": 2927164,
+          "foreignRatio": 52.62
+        },
+        {
+          "date": "2026-04-06",
+          "open": 877000,
+          "high": 901500,
+          "low": 869000,
+          "close": 886000,
+          "volume": 3100989,
+          "foreignRatio": 52.61
+        },
+        {
+          "date": "2026-04-07",
+          "open": 917000,
+          "high": 933000,
+          "low": 888000,
+          "close": 916000,
+          "volume": 3619929,
+          "foreignRatio": 52.71
+        },
+        {
+          "date": "2026-04-08",
+          "open": 1007000,
+          "high": 1056000,
+          "low": 992000,
+          "close": 1033000,
+          "volume": 6709356,
+          "foreignRatio": 52.9
+        },
+        {
+          "date": "2026-04-09",
+          "open": 1015000,
+          "high": 1025000,
+          "low": 990000,
+          "close": 998000,
+          "volume": 5026817,
+          "foreignRatio": 52.79
+        },
+        {
+          "date": "2026-04-10",
+          "open": 1030000,
+          "high": 1042000,
+          "low": 1024000,
+          "close": 1027000,
+          "volume": 3134921,
+          "foreignRatio": 52.91
+        },
+        {
+          "date": "2026-04-13",
+          "open": 999000,
+          "high": 1043000,
+          "low": 996000,
+          "close": 1040000,
+          "volume": 2769753,
+          "foreignRatio": 52.98
+        },
+        {
+          "date": "2026-04-14",
+          "open": 1092000,
+          "high": 1128000,
+          "low": 1078000,
+          "close": 1103000,
+          "volume": 4754545,
+          "foreignRatio": 53.08
+        },
+        {
+          "date": "2026-04-15",
+          "open": 1165000,
+          "high": 1173000,
+          "low": 1130000,
+          "close": 1136000,
+          "volume": 4093703,
+          "foreignRatio": 53.04
+        },
+        {
+          "date": "2026-04-16",
+          "open": 1141000,
+          "high": 1161000,
+          "low": 1130000,
+          "close": 1155000,
+          "volume": 2901319,
+          "foreignRatio": 52.97
+        },
+        {
+          "date": "2026-04-17",
+          "open": 1149000,
+          "high": 1155000,
+          "low": 1121000,
+          "close": 1128000,
+          "volume": 3578235,
+          "foreignRatio": 52.87
+        },
+        {
+          "date": "2026-04-20",
+          "open": 1148000,
+          "high": 1175000,
+          "low": 1141000,
+          "close": 1166000,
+          "volume": 3748014,
+          "foreignRatio": 52.96
+        },
+        {
+          "date": "2026-04-21",
+          "open": 1196000,
+          "high": 1228000,
+          "low": 1193000,
+          "close": 1224000,
+          "volume": 3516960,
+          "foreignRatio": 53.06
+        },
+        {
+          "date": "2026-04-22",
+          "open": 1227000,
+          "high": 1233000,
+          "low": 1195000,
+          "close": 1223000,
+          "volume": 2894919,
+          "foreignRatio": 53.05
+        },
+        {
+          "date": "2026-04-23",
+          "open": 1220000,
+          "high": 1267000,
+          "low": 1183000,
+          "close": 1225000,
+          "volume": 5343871,
+          "foreignRatio": 53.12
+        },
+        {
+          "date": "2026-04-24",
+          "open": 1237000,
+          "high": 1242000,
+          "low": 1193000,
+          "close": 1222000,
+          "volume": 3127857,
+          "foreignRatio": 53.01
+        },
+        {
+          "date": "2026-04-27",
+          "open": 1253000,
+          "high": 1317000,
+          "low": 1249000,
+          "close": 1292000,
+          "volume": 4563073,
+          "foreignRatio": 53.1
+        },
+        {
+          "date": "2026-04-28",
+          "open": 1313000,
+          "high": 1328000,
+          "low": 1296000,
+          "close": 1300000,
+          "volume": 3002713,
+          "foreignRatio": 53.04
+        },
+        {
+          "date": "2026-04-29",
+          "open": 1284000,
+          "high": 1317000,
+          "low": 1281000,
+          "close": 1293000,
+          "volume": 3001208,
+          "foreignRatio": 52.92
+        },
+        {
+          "date": "2026-04-30",
+          "open": 1312000,
+          "high": 1325000,
+          "low": 1286000,
+          "close": 1286000,
+          "volume": 3342342,
+          "foreignRatio": 53
+        },
+        {
+          "date": "2026-05-04",
+          "open": 1339000,
+          "high": 1450000,
+          "low": 1333000,
+          "close": 1447000,
+          "volume": 5652112,
+          "foreignRatio": 53
+        }
+      ],
+      "source": "네이버 금융",
+      "updatedAt": "2026-05-04"
+    },
+    {
+      "symbol": "087010",
+      "code": "087010",
+      "name": "펩트론",
+      "market": "KOSDAQ",
+      "type": "equity",
+      "price": 267500,
+      "previousClose": 260500,
+      "change": 7000,
+      "percent": 2.69,
+      "high": 279000,
+      "low": 261500,
+      "volume": 98470,
+      "amount": 26597423,
+      "chart": [
+        {
+          "date": "2026-03-23",
+          "open": 350000,
+          "high": 352000,
+          "low": 340000,
+          "close": 346000,
+          "volume": 184494,
+          "foreignRatio": 6.92
+        },
+        {
+          "date": "2026-03-24",
+          "open": 356000,
+          "high": 358000,
+          "low": 308000,
+          "close": 327000,
+          "volume": 403941,
+          "foreignRatio": 6.52
+        },
+        {
+          "date": "2026-03-25",
+          "open": 320500,
+          "high": 323000,
+          "low": 301500,
+          "close": 316500,
+          "volume": 172025,
+          "foreignRatio": 6.44
+        },
+        {
+          "date": "2026-03-26",
+          "open": 317000,
+          "high": 324000,
+          "low": 286500,
+          "close": 290000,
+          "volume": 354547,
+          "foreignRatio": 6.28
+        },
+        {
+          "date": "2026-03-27",
+          "open": 279000,
+          "high": 306500,
+          "low": 279000,
+          "close": 303000,
+          "volume": 157227,
+          "foreignRatio": 6.48
+        },
+        {
+          "date": "2026-03-30",
+          "open": 291500,
+          "high": 305500,
+          "low": 289500,
+          "close": 297500,
+          "volume": 83344,
+          "foreignRatio": 6.42
+        },
+        {
+          "date": "2026-03-31",
+          "open": 291000,
+          "high": 304000,
+          "low": 289000,
+          "close": 293500,
+          "volume": 122692,
+          "foreignRatio": 6.62
+        },
+        {
+          "date": "2026-04-01",
+          "open": 301500,
+          "high": 314500,
+          "low": 294500,
+          "close": 308000,
+          "volume": 122956,
+          "foreignRatio": 6.58
+        },
+        {
+          "date": "2026-04-02",
+          "open": 309500,
+          "high": 315500,
+          "low": 275500,
+          "close": 282000,
+          "volume": 216642,
+          "foreignRatio": 6.47
+        },
+        {
+          "date": "2026-04-03",
+          "open": 288500,
+          "high": 288500,
+          "low": 274500,
+          "close": 275500,
+          "volume": 100873,
+          "foreignRatio": 6.35
+        },
+        {
+          "date": "2026-04-06",
+          "open": 276000,
+          "high": 280000,
+          "low": 271000,
+          "close": 272000,
+          "volume": 85635,
+          "foreignRatio": 6.54
+        },
+        {
+          "date": "2026-04-07",
+          "open": 281000,
+          "high": 291000,
+          "low": 275000,
+          "close": 278000,
+          "volume": 89256,
+          "foreignRatio": 6.54
+        },
+        {
+          "date": "2026-04-08",
+          "open": 295000,
+          "high": 299500,
+          "low": 281000,
+          "close": 284000,
+          "volume": 137848,
+          "foreignRatio": 6.38
+        },
+        {
+          "date": "2026-04-09",
+          "open": 281500,
+          "high": 286000,
+          "low": 272500,
+          "close": 274000,
+          "volume": 94990,
+          "foreignRatio": 6.33
+        },
+        {
+          "date": "2026-04-10",
+          "open": 276000,
+          "high": 277000,
+          "low": 267500,
+          "close": 267500,
+          "volume": 105442,
+          "foreignRatio": 6.21
+        },
+        {
+          "date": "2026-04-13",
+          "open": 262500,
+          "high": 265500,
+          "low": 255000,
+          "close": 260000,
+          "volume": 145606,
+          "foreignRatio": 6.22
+        },
+        {
+          "date": "2026-04-14",
+          "open": 267000,
+          "high": 273500,
+          "low": 257500,
+          "close": 260000,
+          "volume": 110318,
+          "foreignRatio": 6.27
+        },
+        {
+          "date": "2026-04-15",
+          "open": 262500,
+          "high": 265000,
+          "low": 256000,
+          "close": 263000,
+          "volume": 133969,
+          "foreignRatio": 6.29
+        },
+        {
+          "date": "2026-04-16",
+          "open": 271000,
+          "high": 278500,
+          "low": 266500,
+          "close": 268000,
+          "volume": 98433,
+          "foreignRatio": 6.27
+        },
+        {
+          "date": "2026-04-17",
+          "open": 268500,
+          "high": 270500,
+          "low": 262500,
+          "close": 264000,
+          "volume": 80668,
+          "foreignRatio": 6.17
+        },
+        {
+          "date": "2026-04-20",
+          "open": 266500,
+          "high": 269000,
+          "low": 261000,
+          "close": 261500,
+          "volume": 92408,
+          "foreignRatio": 6.17
+        },
+        {
+          "date": "2026-04-21",
+          "open": 263500,
+          "high": 263500,
+          "low": 253000,
+          "close": 254500,
+          "volume": 135011,
+          "foreignRatio": 6.06
+        },
+        {
+          "date": "2026-04-22",
+          "open": 256000,
+          "high": 257000,
+          "low": 250000,
+          "close": 253000,
+          "volume": 97984,
+          "foreignRatio": 6.09
+        },
+        {
+          "date": "2026-04-23",
+          "open": 256500,
+          "high": 262000,
+          "low": 248500,
+          "close": 253000,
+          "volume": 142971,
+          "foreignRatio": 6.1
+        },
+        {
+          "date": "2026-04-24",
+          "open": 260000,
+          "high": 287000,
+          "low": 256000,
+          "close": 278500,
+          "volume": 273608,
+          "foreignRatio": 6.34
+        },
+        {
+          "date": "2026-04-27",
+          "open": 280000,
+          "high": 295500,
+          "low": 275000,
+          "close": 283000,
+          "volume": 142519,
+          "foreignRatio": 6.47
+        },
+        {
+          "date": "2026-04-28",
+          "open": 279500,
+          "high": 280000,
+          "low": 270000,
+          "close": 270500,
+          "volume": 118312,
+          "foreignRatio": 6.27
+        },
+        {
+          "date": "2026-04-29",
+          "open": 272000,
+          "high": 275000,
+          "low": 266500,
+          "close": 270000,
+          "volume": 81904,
+          "foreignRatio": 6.11
+        },
+        {
+          "date": "2026-04-30",
+          "open": 267500,
+          "high": 275500,
+          "low": 260000,
+          "close": 260500,
+          "volume": 115725,
+          "foreignRatio": 6.06
+        },
+        {
+          "date": "2026-05-04",
+          "open": 266500,
+          "high": 279000,
+          "low": 261500,
+          "close": 267500,
+          "volume": 98470,
+          "foreignRatio": 6.06
+        }
+      ],
+      "source": "네이버 금융",
+      "updatedAt": "2026-05-04"
+    },
+    {
+      "symbol": "469150",
+      "code": "469150",
+      "name": "ACE AI반도체TOP3Plus",
+      "market": "ETF",
+      "type": "etf",
+      "price": 62000,
+      "previousClose": 58600,
+      "change": 3400,
+      "percent": 5.8,
+      "high": 62000,
+      "low": 59820,
+      "volume": 1657333,
+      "amount": 101018,
+      "chart": [
+        {
+          "date": "2026-03-23",
+          "open": 46920,
+          "high": 47335,
+          "low": 45670,
+          "close": 45835,
+          "volume": 1469045,
+          "foreignRatio": 0.67
+        },
+        {
+          "date": "2026-03-24",
+          "open": 48005,
+          "high": 48175,
+          "low": 45360,
+          "close": 46875,
+          "volume": 1475484,
+          "foreignRatio": 1.35
+        },
+        {
+          "date": "2026-03-25",
+          "open": 48005,
+          "high": 48685,
+          "low": 47400,
+          "close": 47640,
+          "volume": 1002456,
+          "foreignRatio": 1.08
+        },
+        {
+          "date": "2026-03-26",
+          "open": 46500,
+          "high": 46900,
+          "low": 44710,
+          "close": 44900,
+          "volume": 1194080,
+          "foreignRatio": 1.28
+        },
+        {
+          "date": "2026-03-27",
+          "open": 43230,
+          "high": 45090,
+          "low": 42335,
+          "close": 44525,
+          "volume": 1201656,
+          "foreignRatio": 1.31
+        },
+        {
+          "date": "2026-03-30",
+          "open": 41740,
+          "high": 42785,
+          "low": 41545,
+          "close": 42430,
+          "volume": 1030373,
+          "foreignRatio": 1.5
+        },
+        {
+          "date": "2026-03-31",
+          "open": 40655,
+          "high": 41940,
+          "low": 39860,
+          "close": 40110,
+          "volume": 1173522,
+          "foreignRatio": 1.61
+        },
+        {
+          "date": "2026-04-01",
+          "open": 42920,
+          "high": 44700,
+          "low": 42480,
+          "close": 44515,
+          "volume": 1055669,
+          "foreignRatio": 1.48
+        },
+        {
+          "date": "2026-04-02",
+          "open": 45105,
+          "high": 45375,
+          "low": 40965,
+          "close": 41740,
+          "volume": 1490464,
+          "foreignRatio": 1.02
+        },
+        {
+          "date": "2026-04-03",
+          "open": 43075,
+          "high": 43445,
+          "low": 42210,
+          "close": 43060,
+          "volume": 717376,
+          "foreignRatio": 1.23
+        },
+        {
+          "date": "2026-04-06",
+          "open": 43470,
+          "high": 44280,
+          "low": 42880,
+          "close": 43300,
+          "volume": 644037,
+          "foreignRatio": 1.04
+        },
+        {
+          "date": "2026-04-07",
+          "open": 44700,
+          "high": 44800,
+          "low": 43110,
+          "close": 44000,
+          "volume": 844178,
+          "foreignRatio": 1
+        },
+        {
+          "date": "2026-04-08",
+          "open": 47520,
+          "high": 48575,
+          "low": 46830,
+          "close": 48495,
+          "volume": 1141846,
+          "foreignRatio": 1.04
+        },
+        {
+          "date": "2026-04-09",
+          "open": 47725,
+          "high": 48070,
+          "low": 46830,
+          "close": 47375,
+          "volume": 626737,
+          "foreignRatio": 1.21
+        },
+        {
+          "date": "2026-04-10",
+          "open": 48485,
+          "high": 48705,
+          "low": 47990,
+          "close": 48155,
+          "volume": 597268,
+          "foreignRatio": 0.99
+        },
+        {
+          "date": "2026-04-13",
+          "open": 46925,
+          "high": 48125,
+          "low": 46825,
+          "close": 47805,
+          "volume": 497888,
+          "foreignRatio": 1.05
+        },
+        {
+          "date": "2026-04-14",
+          "open": 49150,
+          "high": 49750,
+          "low": 48885,
+          "close": 49340,
+          "volume": 1042274,
+          "foreignRatio": 1.56
+        },
+        {
+          "date": "2026-04-15",
+          "open": 50215,
+          "high": 51330,
+          "low": 50160,
+          "close": 50455,
+          "volume": 1360080,
+          "foreignRatio": 1.65
+        },
+        {
+          "date": "2026-04-16",
+          "open": 50935,
+          "high": 51430,
+          "low": 50135,
+          "close": 51430,
+          "volume": 689064,
+          "foreignRatio": 1.69
+        },
+        {
+          "date": "2026-04-17",
+          "open": 51385,
+          "high": 51385,
+          "low": 50700,
+          "close": 51085,
+          "volume": 678623,
+          "foreignRatio": 1.33
+        },
+        {
+          "date": "2026-04-20",
+          "open": 51085,
+          "high": 52240,
+          "low": 50880,
+          "close": 52015,
+          "volume": 755214,
+          "foreignRatio": 1.54
+        },
+        {
+          "date": "2026-04-21",
+          "open": 52495,
+          "high": 54010,
+          "low": 52485,
+          "close": 54010,
+          "volume": 780096,
+          "foreignRatio": 1.46
+        },
+        {
+          "date": "2026-04-22",
+          "open": 53810,
+          "high": 54355,
+          "low": 53040,
+          "close": 54325,
+          "volume": 1129527,
+          "foreignRatio": 1.51
+        },
+        {
+          "date": "2026-04-23",
+          "open": 54405,
+          "high": 55640,
+          "low": 52700,
+          "close": 54400,
+          "volume": 1562683,
+          "foreignRatio": 1.36
+        },
+        {
+          "date": "2026-04-24",
+          "open": 54635,
+          "high": 55200,
+          "low": 54230,
+          "close": 55200,
+          "volume": 978762,
+          "foreignRatio": 1.85
+        },
+        {
+          "date": "2026-04-27",
+          "open": 55805,
+          "high": 59770,
+          "low": 55800,
+          "close": 59395,
+          "volume": 1813625,
+          "foreignRatio": 1.88
+        },
+        {
+          "date": "2026-04-28",
+          "open": 59320,
+          "high": 59535,
+          "low": 58265,
+          "close": 59025,
+          "volume": 1603644,
+          "foreignRatio": 1.41
+        },
+        {
+          "date": "2026-04-29",
+          "open": 57835,
+          "high": 58930,
+          "low": 57430,
+          "close": 58680,
+          "volume": 1173932,
+          "foreignRatio": 1.15
+        },
+        {
+          "date": "2026-04-30",
+          "open": 59345,
+          "high": 60115,
+          "low": 58350,
+          "close": 58600,
+          "volume": 1393567,
+          "foreignRatio": 1.21
+        },
+        {
+          "date": "2026-05-04",
+          "open": 60135,
+          "high": 62000,
+          "low": 59820,
+          "close": 62000,
+          "volume": 1657333,
+          "foreignRatio": 1.21
+        }
+      ],
+      "source": "네이버 금융",
+      "updatedAt": "2026-05-04"
+    },
+    {
+      "symbol": "0162Z0",
+      "code": "0162Z0",
+      "name": "RISE 삼성전자SK하이닉스채권혼합50",
+      "market": "ETF",
+      "type": "etf",
+      "price": 11900,
+      "previousClose": 11400,
+      "change": 500,
+      "percent": 4.39,
+      "high": 11900,
+      "low": 11510,
+      "volume": 8829658,
+      "amount": 103477,
+      "chart": [
+        {
+          "date": "2026-03-23",
+          "open": 10080,
+          "high": 10105,
+          "low": 9955,
+          "close": 9980,
+          "volume": 5962293,
+          "foreignRatio": 0.01
+        },
+        {
+          "date": "2026-03-24",
+          "open": 10230,
+          "high": 10470,
+          "low": 9740,
+          "close": 10165,
+          "volume": 7358275,
+          "foreignRatio": 0.11
+        },
+        {
+          "date": "2026-03-25",
+          "open": 10325,
+          "high": 10385,
+          "low": 10170,
+          "close": 10190,
+          "volume": 5650774,
+          "foreignRatio": 0.11
+        },
+        {
+          "date": "2026-03-26",
+          "open": 10045,
+          "high": 10070,
+          "low": 9875,
+          "close": 9905,
+          "volume": 5987612,
+          "foreignRatio": 0.11
+        },
+        {
+          "date": "2026-03-27",
+          "open": 9725,
+          "high": 9925,
+          "low": 9650,
+          "close": 9875,
+          "volume": 5679618,
+          "foreignRatio": 0.1
+        },
+        {
+          "date": "2026-03-30",
+          "open": 9575,
+          "high": 9725,
+          "low": 9575,
+          "close": 9700,
+          "volume": 4471083,
+          "foreignRatio": 0.1
+        },
+        {
+          "date": "2026-03-31",
+          "open": 9485,
+          "high": 9615,
+          "low": 9395,
+          "close": 9420,
+          "volume": 5614742,
+          "foreignRatio": 0.1
+        },
+        {
+          "date": "2026-04-01",
+          "open": 9745,
+          "high": 9980,
+          "low": 9690,
+          "close": 9955,
+          "volume": 5383526,
+          "foreignRatio": 0.1
+        },
+        {
+          "date": "2026-04-02",
+          "open": 10025,
+          "high": 10050,
+          "low": 9535,
+          "close": 9635,
+          "volume": 8562222,
+          "foreignRatio": 0.09
+        },
+        {
+          "date": "2026-04-03",
+          "open": 9785,
+          "high": 9885,
+          "low": 9760,
+          "close": 9860,
+          "volume": 4644170,
+          "foreignRatio": 0.1
+        },
+        {
+          "date": "2026-04-06",
+          "open": 9895,
+          "high": 10040,
+          "low": 9890,
+          "close": 9965,
+          "volume": 5119285,
+          "foreignRatio": 0.09
+        },
+        {
+          "date": "2026-04-07",
+          "open": 10175,
+          "high": 10195,
+          "low": 9970,
+          "close": 10095,
+          "volume": 6469800,
+          "foreignRatio": 0.05
+        },
+        {
+          "date": "2026-04-08",
+          "open": 10600,
+          "high": 10735,
+          "low": 10465,
+          "close": 10655,
+          "volume": 9478398,
+          "foreignRatio": 0.05
+        },
+        {
+          "date": "2026-04-09",
+          "open": 10555,
+          "high": 10575,
+          "low": 10410,
+          "close": 10440,
+          "volume": 6121127,
+          "foreignRatio": 0.04
+        },
+        {
+          "date": "2026-04-10",
+          "open": 10605,
+          "high": 10650,
+          "low": 10535,
+          "close": 10540,
+          "volume": 4928611,
+          "foreignRatio": 0.03
+        },
+        {
+          "date": "2026-04-13",
+          "open": 10370,
+          "high": 10550,
+          "low": 10365,
+          "close": 10530,
+          "volume": 4596976,
+          "foreignRatio": 0.04
+        },
+        {
+          "date": "2026-04-14",
+          "open": 10755,
+          "high": 10850,
+          "low": 10680,
+          "close": 10745,
+          "volume": 6856438,
+          "foreignRatio": 0.19
+        },
+        {
+          "date": "2026-04-15",
+          "open": 11040,
+          "high": 11045,
+          "low": 10870,
+          "close": 10910,
+          "volume": 7018621,
+          "foreignRatio": 0.2
+        },
+        {
+          "date": "2026-04-16",
+          "open": 10935,
+          "high": 11040,
+          "low": 10875,
+          "close": 11035,
+          "volume": 6413286,
+          "foreignRatio": 0.23
+        },
+        {
+          "date": "2026-04-17",
+          "open": 11030,
+          "high": 11040,
+          "low": 10920,
+          "close": 10980,
+          "volume": 6116915,
+          "foreignRatio": 0.15
+        },
+        {
+          "date": "2026-04-20",
+          "open": 10945,
+          "high": 11080,
+          "low": 10945,
+          "close": 11040,
+          "volume": 6535635,
+          "foreignRatio": 0.12
+        },
+        {
+          "date": "2026-04-21",
+          "open": 11160,
+          "high": 11230,
+          "low": 11030,
+          "close": 11230,
+          "volume": 8675348,
+          "foreignRatio": 0.33
+        },
+        {
+          "date": "2026-04-22",
+          "open": 11220,
+          "high": 11250,
+          "low": 11110,
+          "close": 11210,
+          "volume": 7887951,
+          "foreignRatio": 0.34
+        },
+        {
+          "date": "2026-04-23",
+          "open": 11280,
+          "high": 11430,
+          "low": 11085,
+          "close": 11290,
+          "volume": 12313112,
+          "foreignRatio": 0.35
+        },
+        {
+          "date": "2026-04-24",
+          "open": 11350,
+          "high": 11355,
+          "low": 11120,
+          "close": 11230,
+          "volume": 7507167,
+          "foreignRatio": 0.33
+        },
+        {
+          "date": "2026-04-27",
+          "open": 11245,
+          "high": 11515,
+          "low": 11245,
+          "close": 11435,
+          "volume": 9411544,
+          "foreignRatio": 0.33
+        },
+        {
+          "date": "2026-04-28",
+          "open": 11480,
+          "high": 11550,
+          "low": 11425,
+          "close": 11445,
+          "volume": 8457657,
+          "foreignRatio": 0.27
+        },
+        {
+          "date": "2026-04-29",
+          "open": 11360,
+          "high": 11505,
+          "low": 11355,
+          "close": 11455,
+          "volume": 6816194,
+          "foreignRatio": 0.26
+        },
+        {
+          "date": "2026-04-30",
+          "open": 11505,
+          "high": 11585,
+          "low": 11390,
+          "close": 11400,
+          "volume": 8195597,
+          "foreignRatio": 0.28
+        },
+        {
+          "date": "2026-05-04",
+          "open": 11570,
+          "high": 11900,
+          "low": 11510,
+          "close": 11900,
+          "volume": 8829658,
+          "foreignRatio": 0.28
+        }
+      ],
+      "source": "네이버 금융",
+      "updatedAt": "2026-05-04"
+    },
+    {
+      "symbol": "229200",
+      "code": "229200",
+      "name": "KODEX 코스닥150",
+      "market": "ETF",
+      "type": "etf",
+      "price": 20175,
+      "previousClose": 19855,
+      "change": 320,
+      "percent": 1.61,
+      "high": 20390,
+      "low": 20105,
+      "volume": 13399813,
+      "amount": 271203,
+      "chart": [
+        {
+          "date": "2026-03-23",
+          "open": 19480,
+          "high": 19535,
+          "low": 18885,
+          "close": 19010,
+          "volume": 39308068,
+          "foreignRatio": 0.83
+        },
+        {
+          "date": "2026-03-24",
+          "open": 19665,
+          "high": 19690,
+          "low": 19010,
+          "close": 19410,
+          "volume": 29561918,
+          "foreignRatio": 0.66
+        },
+        {
+          "date": "2026-03-25",
+          "open": 19790,
+          "high": 20190,
+          "low": 19720,
+          "close": 20100,
+          "volume": 25719443,
+          "foreignRatio": 0.67
+        },
+        {
+          "date": "2026-03-26",
+          "open": 20310,
+          "high": 20460,
+          "low": 19660,
+          "close": 19750,
+          "volume": 34551658,
+          "foreignRatio": 0.75
+        },
+        {
+          "date": "2026-03-27",
+          "open": 19350,
+          "high": 19895,
+          "low": 19050,
+          "close": 19830,
+          "volume": 24277306,
+          "foreignRatio": 0.85
+        },
+        {
+          "date": "2026-03-30",
+          "open": 19040,
+          "high": 19355,
+          "low": 18975,
+          "close": 19220,
+          "volume": 22890014,
+          "foreignRatio": 0.58
+        },
+        {
+          "date": "2026-03-31",
+          "open": 19015,
+          "high": 19100,
+          "low": 18005,
+          "close": 18155,
+          "volume": 39006376,
+          "foreignRatio": 0.55
+        },
+        {
+          "date": "2026-04-01",
+          "open": 18875,
+          "high": 19440,
+          "low": 18780,
+          "close": 19220,
+          "volume": 38387187,
+          "foreignRatio": 0.53
+        },
+        {
+          "date": "2026-04-02",
+          "open": 19490,
+          "high": 19510,
+          "low": 17685,
+          "close": 18060,
+          "volume": 43432763,
+          "foreignRatio": 0.71
+        },
+        {
+          "date": "2026-04-03",
+          "open": 18415,
+          "high": 18500,
+          "low": 17890,
+          "close": 18080,
+          "volume": 25027645,
+          "foreignRatio": 0.19
+        },
+        {
+          "date": "2026-04-06",
+          "open": 18115,
+          "high": 18430,
+          "low": 17810,
+          "close": 17815,
+          "volume": 19905707,
+          "foreignRatio": 0.2
+        },
+        {
+          "date": "2026-04-07",
+          "open": 17935,
+          "high": 18385,
+          "low": 17590,
+          "close": 17745,
+          "volume": 17120815,
+          "foreignRatio": 0.21
+        },
+        {
+          "date": "2026-04-08",
+          "open": 18700,
+          "high": 18860,
+          "low": 18445,
+          "close": 18710,
+          "volume": 21104847,
+          "foreignRatio": 0.2
+        },
+        {
+          "date": "2026-04-09",
+          "open": 18710,
+          "high": 18770,
+          "low": 18245,
+          "close": 18415,
+          "volume": 22855036,
+          "foreignRatio": 0.3
+        },
+        {
+          "date": "2026-04-10",
+          "open": 18665,
+          "high": 18700,
+          "low": 18460,
+          "close": 18575,
+          "volume": 16465847,
+          "foreignRatio": 0.01
+        },
+        {
+          "date": "2026-04-13",
+          "open": 18225,
+          "high": 18610,
+          "low": 18175,
+          "close": 18540,
+          "volume": 17655272,
+          "foreignRatio": 0.35
+        },
+        {
+          "date": "2026-04-14",
+          "open": 18930,
+          "high": 18950,
+          "low": 18655,
+          "close": 18725,
+          "volume": 14424299,
+          "foreignRatio": 0.41
+        },
+        {
+          "date": "2026-04-15",
+          "open": 19050,
+          "high": 19495,
+          "low": 18970,
+          "close": 19415,
+          "volume": 22543806,
+          "foreignRatio": 0.54
+        },
+        {
+          "date": "2026-04-16",
+          "open": 19655,
+          "high": 19690,
+          "low": 19450,
+          "close": 19550,
+          "volume": 18607468,
+          "foreignRatio": 0.66
+        },
+        {
+          "date": "2026-04-17",
+          "open": 19650,
+          "high": 19650,
+          "low": 19375,
+          "close": 19550,
+          "volume": 15715877,
+          "foreignRatio": 0.46
+        },
+        {
+          "date": "2026-04-20",
+          "open": 19590,
+          "high": 19965,
+          "low": 19400,
+          "close": 19700,
+          "volume": 22115229,
+          "foreignRatio": 0.57
+        },
+        {
+          "date": "2026-04-21",
+          "open": 19940,
+          "high": 19950,
+          "low": 19760,
+          "close": 19900,
+          "volume": 18397769,
+          "foreignRatio": 0.78
+        },
+        {
+          "date": "2026-04-22",
+          "open": 19955,
+          "high": 19965,
+          "low": 19440,
+          "close": 19870,
+          "volume": 23795291,
+          "foreignRatio": 0.96
+        },
+        {
+          "date": "2026-04-23",
+          "open": 20050,
+          "high": 20050,
+          "low": 19320,
+          "close": 19715,
+          "volume": 25935928,
+          "foreignRatio": 1.06
+        },
+        {
+          "date": "2026-04-24",
+          "open": 19745,
+          "high": 20300,
+          "low": 19625,
+          "close": 20295,
+          "volume": 24635163,
+          "foreignRatio": 1.06
+        },
+        {
+          "date": "2026-04-27",
+          "open": 20455,
+          "high": 20790,
+          "low": 20350,
+          "close": 20670,
+          "volume": 34160332,
+          "foreignRatio": 1.1
+        },
+        {
+          "date": "2026-04-28",
+          "open": 20590,
+          "high": 20640,
+          "low": 20250,
+          "close": 20415,
+          "volume": 31211405,
+          "foreignRatio": 1.05
+        },
+        {
+          "date": "2026-04-29",
+          "open": 20360,
+          "high": 20590,
+          "low": 20210,
+          "close": 20490,
+          "volume": 19942843,
+          "foreignRatio": 0.76
+        },
+        {
+          "date": "2026-04-30",
+          "open": 20485,
+          "high": 20500,
+          "low": 19800,
+          "close": 19855,
+          "volume": 25146380,
+          "foreignRatio": 0.88
+        },
+        {
+          "date": "2026-05-04",
+          "open": 20125,
+          "high": 20390,
+          "low": 20105,
+          "close": 20175,
+          "volume": 13399813,
+          "foreignRatio": 0.88
+        }
+      ],
+      "source": "네이버 금융",
+      "updatedAt": "2026-05-04"
+    }
+  ]
+}
