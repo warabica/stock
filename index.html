@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한국 주식 모니터링</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">KR Market Monitor</p>
+          <h1>한국 주식 모니터링</h1>
+        </div>
+        <button class="refresh-button" id="refreshButton" type="button" aria-label="시세 갱신">
+          <span aria-hidden="true">↻</span>
+          <span>갱신</span>
+        </button>
+      </header>
+
+      <section class="market-strip" aria-label="시장 요약">
+        <article>
+          <span>환율</span>
+          <strong id="exchangeRate">-</strong>
+          <small>USD/KRW</small>
+        </article>
+        <article>
+          <span>기준일</span>
+          <strong id="baseDate">-</strong>
+          <small id="baseTime">-</small>
+        </article>
+        <article>
+          <span>시장분위기</span>
+          <strong id="marketMood">-</strong>
+          <small id="marketMoodDetail">데이터 수집 중</small>
+        </article>
+      </section>
+
+      <section class="watchlist-section" aria-label="관심 종목">
+        <div class="section-heading">
+          <h2>관심 종목</h2>
+          <p id="statusText">시세를 불러오는 중입니다.</p>
+        </div>
+        <div class="watchlist" id="watchlist"></div>
+      </section>
+
+      <section class="chart-section" aria-label="30일 가격 차트">
+        <div class="section-heading">
+          <h2 id="chartTitle">삼성전자 30일 가격</h2>
+          <p id="chartSubtitle">종목 카드를 누르면 차트가 바뀝니다.</p>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="priceChart" height="320"></canvas>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

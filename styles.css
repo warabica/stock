@@ -1,0 +1,301 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f7f4;
+  --ink: #17211c;
+  --muted: #66756d;
+  --line: #dce4dd;
+  --panel: #ffffff;
+  --panel-2: #edf6ef;
+  --accent: #0c7c59;
+  --accent-2: #2d5f9a;
+  --danger: #c04747;
+  --shadow: 0 18px 45px rgba(21, 37, 28, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(244, 247, 244, 0.94), rgba(244, 247, 244, 1)),
+    url("https://images.unsplash.com/photo-1642790551116-18e150f248e0?auto=format&fit=crop&w=1800&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family:
+    Inter, "Pretendard", "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+.app-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 42px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 92px;
+}
+
+.eyebrow {
+  margin: 0 0 7px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(1.9rem, 4vw, 3.25rem);
+  line-height: 1.08;
+}
+
+.refresh-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 86px;
+  height: 38px;
+  border: 1px solid rgba(12, 124, 89, 0.22);
+  border-radius: 8px;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+  box-shadow: 0 10px 24px rgba(12, 124, 89, 0.2);
+}
+
+.refresh-button:disabled {
+  cursor: wait;
+  opacity: 0.68;
+}
+
+.refresh-button.is-loading span:first-child {
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.market-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 14px 0 24px;
+}
+
+.market-strip article,
+.watchlist,
+.chart-wrap {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(220, 228, 221, 0.9);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+}
+
+.market-strip article {
+  min-height: 116px;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+.market-strip span,
+.stock-meta,
+.stock-name,
+.section-heading p {
+  color: var(--muted);
+}
+
+.market-strip span {
+  display: block;
+  margin-bottom: 13px;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.market-strip strong {
+  display: block;
+  font-size: clamp(1.35rem, 3vw, 2.12rem);
+  line-height: 1;
+}
+
+.market-strip small {
+  display: block;
+  margin-top: 9px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.watchlist-section,
+.chart-section {
+  margin-top: 24px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 12px;
+}
+
+.section-heading h2 {
+  font-size: 1.16rem;
+}
+
+.section-heading p {
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.watchlist {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.stock-card {
+  min-height: 136px;
+  padding: 18px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.78);
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.stock-card:hover,
+.stock-card.is-active {
+  background: var(--panel-2);
+}
+
+.stock-card.is-active {
+  outline: 2px solid rgba(12, 124, 89, 0.35);
+  outline-offset: -2px;
+}
+
+.stock-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 43px;
+}
+
+.stock-name {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.81rem;
+  line-height: 1.25;
+  word-break: keep-all;
+}
+
+.stock-symbol {
+  color: var(--ink);
+  font-size: 0.98rem;
+  font-weight: 850;
+}
+
+.stock-market {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.stock-price {
+  margin-top: 18px;
+  font-size: 1.55rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.stock-change {
+  margin-top: 9px;
+  font-size: 0.91rem;
+  font-weight: 850;
+}
+
+.stock-change.up {
+  color: var(--danger);
+}
+
+.stock-change.down {
+  color: var(--accent-2);
+}
+
+.stock-meta {
+  margin-top: 12px;
+  font-size: 0.78rem;
+}
+
+.chart-wrap {
+  height: 380px;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+#priceChart {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .watchlist {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .app-shell {
+    width: min(100% - 22px, 1180px);
+    padding-top: 18px;
+  }
+
+  .topbar {
+    min-height: 82px;
+  }
+
+  .market-strip,
+  .watchlist {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading {
+    display: block;
+  }
+
+  .section-heading p {
+    margin-top: 5px;
+    text-align: left;
+  }
+
+  .chart-wrap {
+    height: 320px;
+    padding: 12px;
+  }
+}
