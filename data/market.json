@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-05T05:31:06.856Z",
+  "generatedAt": "2026-05-05T07:34:10.277Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
-    "price": 1478.2,
+    "price": 1474.6,
     "previousClose": 1475.5,
-    "change": 2.7,
-    "percent": 0.18,
+    "change": -0.9,
+    "percent": -0.06,
     "source": "네이버 금융",
-    "updatedAt": "2026-05-04T22:10:27+09:00"
+    "updatedAt": "2026-05-04T22:10:35+09:00"
   },
   "fearGreed": {
-    "score": 62.8285714285714,
+    "score": 62.1714285714286,
     "rating": "greed",
     "previousClose": 62.9142857142857,
     "previousWeek": 63.6857142857143,
     "previousMonth": 23.7428571428571,
     "previousYear": 53.057142857142864,
     "source": "CNN",
-    "updatedAt": "2026-05-05T00:00:00+00:00"
+    "updatedAt": "2026-05-05T00:59:48+00:00"
   },
   "instruments": [
     {
