@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-08T07:07:21.865Z",
+  "generatedAt": "2026-05-08T08:48:29.681Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
-    "price": 1468.5,
+    "price": 1467.9,
     "previousClose": 1458,
-    "change": 10.5,
-    "percent": 0.72,
+    "change": 9.9,
+    "percent": 0.68,
     "source": "네이버 금융",
-    "updatedAt": "2026-05-08T16:04:34+09:00"
+    "updatedAt": "2026-05-08T17:45:39+09:00"
   },
   "fearGreed": {
-    "score": 67.6,
+    "score": 66.7714285714286,
     "rating": "greed",
     "previousClose": 67.6285714285714,
     "previousWeek": 66.0857142857143,
     "previousMonth": 34.4285714285714,
     "previousYear": 57.65714285714286,
     "source": "CNN",
-    "updatedAt": "2026-05-08T00:00:00+00:00"
+    "updatedAt": "2026-05-08T08:28:31+00:00"
   },
   "instruments": [
     {
@@ -601,10 +601,10 @@
       "previousClose": 271500,
       "change": -3000,
       "percent": -1.1,
-      "high": 268500,
-      "low": 268500,
-      "volume": 19410,
-      "amount": 5213,
+      "high": 270000,
+      "low": 260000,
+      "volume": 25696964,
+      "amount": 6809050,
       "chart": [
         {
           "date": "2026-03-26",
@@ -869,11 +869,11 @@
         },
         {
           "date": "2026-05-08",
-          "open": 0,
-          "high": 268500,
-          "low": 268500,
+          "open": 260000,
+          "high": 270000,
+          "low": 260000,
           "close": 268500,
-          "volume": 19410,
+          "volume": 25696964,
           "foreignRatio": 49.4
         }
       ],
@@ -1469,9 +1469,9 @@
       "change": 300,
       "percent": 0.44,
       "high": 68300,
-      "low": 68300,
-      "volume": 288,
-      "amount": 19,
+      "low": 65720,
+      "volume": 1596996,
+      "amount": 106968,
       "chart": [
         {
           "date": "2026-03-26",
@@ -1736,11 +1736,11 @@
         },
         {
           "date": "2026-05-08",
-          "open": 0,
+          "open": 65940,
           "high": 68300,
-          "low": 68300,
+          "low": 65720,
           "close": 68300,
-          "volume": 288,
+          "volume": 1596996,
           "foreignRatio": 0.67
         }
       ],
