@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-15T06:33:36.753Z",
+  "generatedAt": "2026-05-15T09:35:05.275Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
-    "price": 1501.4,
+    "price": 1499.2,
     "previousClose": 1493.5,
-    "change": 7.9,
-    "percent": 0.53,
+    "change": 5.7,
+    "percent": 0.38,
     "source": "네이버 금융",
-    "updatedAt": "2026-05-15T15:32:51+09:00"
+    "updatedAt": "2026-05-15T18:34:58+09:00"
   },
   "fearGreed": {
-    "score": 66.0571428571429,
+    "score": 65.3428571428571,
     "rating": "greed",
     "previousClose": 66.1428571428572,
     "previousWeek": 66.6857142857143,
     "previousMonth": 56.2,
     "previousYear": 69.14285714285714,
     "source": "CNN",
-    "updatedAt": "2026-05-15T00:00:00+00:00"
+    "updatedAt": "2026-05-15T09:19:01+00:00"
   },
   "instruments": [
     {
@@ -299,7 +299,7 @@
           "high": 8046.78,
           "low": 7371.68,
           "close": 7493.18,
-          "volume": 878727,
+          "volume": 885627,
           "foreignRatio": 0
         }
       ],
@@ -584,7 +584,7 @@
           "high": 1197.23,
           "low": 1110.16,
           "close": 1129.82,
-          "volume": 1082956,
+          "volume": 1093008,
           "foreignRatio": 0
         }
       ],
@@ -603,8 +603,8 @@
       "percent": -8.61,
       "high": 296500,
       "low": 266000,
-      "volume": 37930424,
-      "amount": 10628015,
+      "volume": 37931525,
+      "amount": 10628313,
       "chart": [
         {
           "date": "2026-04-02",
@@ -873,7 +873,7 @@
           "high": 296500,
           "low": 266000,
           "close": 270500,
-          "volume": 37930424,
+          "volume": 37931525,
           "foreignRatio": 48.85
         }
       ],
@@ -892,8 +892,8 @@
       "percent": -7.66,
       "high": 1995000,
       "low": 1789000,
-      "volume": 6897343,
-      "amount": 12988779,
+      "volume": 6921083,
+      "amount": 13031962,
       "chart": [
         {
           "date": "2026-04-02",
@@ -1162,7 +1162,7 @@
           "high": 1995000,
           "low": 1789000,
           "close": 1819000,
-          "volume": 6897343,
+          "volume": 6921083,
           "foreignRatio": 52.36
         }
       ],
@@ -1181,8 +1181,8 @@
       "percent": -2.63,
       "high": 266500,
       "low": 251000,
-      "volume": 162785,
-      "amount": 42232699,
+      "volume": 162798,
+      "amount": 42236073,
       "chart": [
         {
           "date": "2026-04-02",
@@ -1451,7 +1451,7 @@
           "high": 266500,
           "low": 251000,
           "close": 259500,
-          "volume": 162785,
+          "volume": 162798,
           "foreignRatio": 6.12
         }
       ],
@@ -1470,8 +1470,8 @@
       "percent": -7.13,
       "high": 75370,
       "low": 68000,
-      "volume": 3296945,
-      "amount": 237261,
+      "volume": 3297876,
+      "amount": 237325,
       "chart": [
         {
           "date": "2026-04-02",
@@ -1740,7 +1740,7 @@
           "high": 75370,
           "low": 68000,
           "close": 69335,
-          "volume": 3296945,
+          "volume": 3297876,
           "foreignRatio": 0.72
         }
       ],
@@ -1759,8 +1759,8 @@
       "percent": -3.4,
       "high": 13770,
       "low": 13045,
-      "volume": 22874231,
-      "amount": 307157,
+      "volume": 22877930,
+      "amount": 307206,
       "chart": [
         {
           "date": "2026-04-02",
@@ -2029,7 +2029,7 @@
           "high": 13770,
           "low": 13045,
           "close": 13215,
-          "volume": 22874231,
+          "volume": 22877930,
           "foreignRatio": 0.13
         }
       ],
@@ -2048,8 +2048,8 @@
       "percent": -4.7,
       "high": 20050,
       "low": 18445,
-      "volume": 35079038,
-      "amount": 670639,
+      "volume": 35107357,
+      "amount": 671176,
       "chart": [
         {
           "date": "2026-04-02",
@@ -2318,7 +2318,7 @@
           "high": 20050,
           "low": 18445,
           "close": 18975,
-          "volume": 35079038,
+          "volume": 35107357,
           "foreignRatio": 1.09
         }
       ],
