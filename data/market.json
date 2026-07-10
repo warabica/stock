@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-07-10T06:42:43.000Z",
+  "generatedAt": "2026-07-10T10:04:22.576Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
-    "price": 1503.2,
+    "price": 1505,
     "previousClose": 1507,
-    "change": -3.8,
-    "percent": -0.25,
+    "change": -2,
+    "percent": -0.13,
     "source": "네이버 금융",
-    "updatedAt": "2026-07-10T15:40:44+09:00"
+    "updatedAt": "2026-07-10T18:58:33+09:00"
   },
   "fearGreed": {
-    "score": 47.2857142857143,
+    "score": 47.1714285714286,
     "rating": "neutral",
     "previousClose": 47.2857142857143,
     "previousWeek": 32.4,
     "previousMonth": 26.9142857142857,
     "previousYear": 76.97142857142856,
     "source": "CNN",
-    "updatedAt": "2026-07-10T00:00:00+00:00"
+    "updatedAt": "2026-07-10T09:44:46+00:00"
   },
   "instruments": [
     {
@@ -299,7 +299,7 @@
           "high": 7704.93,
           "low": 7429.51,
           "close": 7475.94,
-          "volume": 449529,
+          "volume": 453242,
           "foreignRatio": 0
         }
       ],
@@ -584,7 +584,7 @@
           "high": 845.88,
           "low": 800.39,
           "close": 837.43,
-          "volume": 486345,
+          "volume": 490954,
           "foreignRatio": 0
         }
       ],
@@ -603,8 +603,8 @@
       "percent": 2.52,
       "high": 298000,
       "low": 282000,
-      "volume": 19919361,
-      "amount": 5768177,
+      "volume": 19919725,
+      "amount": 5768281,
       "chart": [
         {
           "date": "2026-05-29",
@@ -873,7 +873,7 @@
           "high": 298000,
           "low": 282000,
           "close": 285000,
-          "volume": 19919361,
+          "volume": 19919725,
           "foreignRatio": 46.57
         }
       ],
@@ -892,8 +892,8 @@
       "percent": -0.27,
       "high": 2305000,
       "low": 2166000,
-      "volume": 4819513,
-      "amount": 10715351,
+      "volume": 4819564,
+      "amount": 10715462,
       "chart": [
         {
           "date": "2026-05-29",
@@ -1162,7 +1162,7 @@
           "high": 2305000,
           "low": 2166000,
           "close": 2180000,
-          "volume": 4819513,
+          "volume": 4819564,
           "foreignRatio": 50.01
         }
       ],
@@ -1181,8 +1181,8 @@
       "percent": 29.94,
       "high": 122700,
       "low": 111600,
-      "volume": 2032026,
-      "amount": 232918782,
+      "volume": 2032027,
+      "amount": 232918893,
       "chart": [
         {
           "date": "2026-05-29",
@@ -1451,7 +1451,7 @@
           "high": 122700,
           "low": 111600,
           "close": 111600,
-          "volume": 2032026,
+          "volume": 2032027,
           "foreignRatio": 5.03
         }
       ],
@@ -1470,8 +1470,8 @@
       "percent": 3.6,
       "high": 66395,
       "low": 62450,
-      "volume": 721671,
-      "amount": 46659,
+      "volume": 723890,
+      "amount": 46802,
       "chart": [
         {
           "date": "2026-05-29",
@@ -1740,7 +1740,7 @@
           "high": 66395,
           "low": 62450,
           "close": 64450,
-          "volume": 721671,
+          "volume": 723890,
           "foreignRatio": 1.51
         }
       ],
@@ -1759,8 +1759,8 @@
       "percent": 0.63,
       "high": 14555,
       "low": 14175,
-      "volume": 11626885,
-      "amount": 167152,
+      "volume": 11630225,
+      "amount": 167199,
       "chart": [
         {
           "date": "2026-05-29",
@@ -2029,7 +2029,7 @@
           "high": 14555,
           "low": 14175,
           "close": 14265,
-          "volume": 11626885,
+          "volume": 11630225,
           "foreignRatio": 0.29
         }
       ],
@@ -2048,8 +2048,8 @@
       "percent": 4.72,
       "high": 14685,
       "low": 13745,
-      "volume": 27628318,
-      "amount": 397439,
+      "volume": 27631674,
+      "amount": 397487,
       "chart": [
         {
           "date": "2026-05-29",
@@ -2318,7 +2318,7 @@
           "high": 14685,
           "low": 13745,
           "close": 14420,
-          "volume": 27628318,
+          "volume": 27631674,
           "foreignRatio": 1.52
         }
       ],
