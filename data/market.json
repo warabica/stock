@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T04:25:08.819Z",
+  "generatedAt": "2026-08-17T05:07:28.340Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
@@ -8,7 +8,7 @@
     "change": -4.2,
     "percent": -0.3,
     "source": "네이버 금융",
-    "updatedAt": "2026-08-17T13:23:23+09:00"
+    "updatedAt": "2026-08-17T14:05:03+09:00"
   },
   "fearGreed": {
     "score": 64.9714285714286,
