@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-17T05:07:28.340Z",
+  "generatedAt": "2026-08-17T05:49:18.266Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
-    "price": 1416,
+    "price": 1415.5,
     "previousClose": 1420.2,
-    "change": -4.2,
-    "percent": -0.3,
+    "change": -4.7,
+    "percent": -0.33,
     "source": "네이버 금융",
-    "updatedAt": "2026-08-17T14:05:03+09:00"
+    "updatedAt": "2026-08-17T14:44:13+09:00"
   },
   "fearGreed": {
     "score": 64.9714285714286,
