@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-19T04:09:27.088Z",
+  "generatedAt": "2026-08-19T04:50:49.681Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
-    "price": 1400.7,
+    "price": 1399.7,
     "previousClose": 1413.5,
-    "change": -12.8,
-    "percent": -0.91,
+    "change": -13.8,
+    "percent": -0.98,
     "source": "네이버 금융",
-    "updatedAt": "2026-08-19T13:06:33+09:00"
+    "updatedAt": "2026-08-19T13:49:53+09:00"
   },
   "fearGreed": {
     "score": 54.2857142857143,
@@ -27,10 +27,10 @@
       "name": "코스피",
       "market": "KOSPI",
       "type": "index",
-      "price": 6481.02,
+      "price": 6470.9,
       "previousClose": 6869.83,
-      "change": -388.8099999999995,
-      "percent": -5.659674256859333,
+      "change": -398.9300000000003,
+      "percent": -5.806985034564178,
       "chart": [
         {
           "date": "2026-07-07",
@@ -298,8 +298,8 @@
           "open": 6528.77,
           "high": 6614.39,
           "low": 6400.81,
-          "close": 6481.02,
-          "volume": 217104,
+          "close": 6470.9,
+          "volume": 236911,
           "foreignRatio": 0
         }
       ],
@@ -312,10 +312,10 @@
       "name": "코스닥",
       "market": "KOSDAQ",
       "type": "index",
-      "price": 830.32,
+      "price": 827.97,
       "previousClose": 834.2,
-      "change": -3.8799999999999955,
-      "percent": -0.4651162790697668,
+      "change": -6.230000000000018,
+      "percent": -0.7468233037640876,
       "chart": [
         {
           "date": "2026-07-07",
@@ -583,8 +583,8 @@
           "open": 810.08,
           "high": 840.5,
           "low": 804.02,
-          "close": 830.32,
-          "volume": 440753,
+          "close": 827.97,
+          "volume": 487724,
           "foreignRatio": 0
         }
       ],
@@ -597,14 +597,14 @@
       "name": "삼성전자",
       "market": "KOSPI",
       "type": "equity",
-      "price": 248250,
+      "price": 248000,
       "previousClose": 268500,
-      "change": -20250,
-      "percent": -7.54,
+      "change": -20500,
+      "percent": -7.64,
       "high": 254500,
       "low": 247000,
-      "volume": 14591121,
-      "amount": 3650861,
+      "volume": 16127964,
+      "amount": 4032665,
       "chart": [
         {
           "date": "2026-07-07",
@@ -872,8 +872,8 @@
           "open": 251500,
           "high": 254500,
           "low": 247000,
-          "close": 248500,
-          "volume": 14647593,
+          "close": 248000,
+          "volume": 16127964,
           "foreignRatio": 46.83
         }
       ],
@@ -886,14 +886,14 @@
       "name": "SK하이닉스",
       "market": "KOSPI",
       "type": "equity",
-      "price": 1515000,
+      "price": 1505000,
       "previousClose": 1662000,
-      "change": -147000,
-      "percent": -8.84,
+      "change": -157000,
+      "percent": -9.45,
       "high": 1559000,
       "low": 1501000,
-      "volume": 2598620,
-      "amount": 3967736,
+      "volume": 2833871,
+      "amount": 4323335,
       "chart": [
         {
           "date": "2026-07-07",
@@ -1161,8 +1161,8 @@
           "open": 1545000,
           "high": 1559000,
           "low": 1501000,
-          "close": 1515000,
-          "volume": 2598620,
+          "close": 1505000,
+          "volume": 2833871,
           "foreignRatio": 51.16
         }
       ],
@@ -1181,8 +1181,8 @@
       "percent": 4.28,
       "high": 193400,
       "low": 175000,
-      "volume": 84858,
-      "amount": 15752586,
+      "volume": 89419,
+      "amount": 16607121,
       "chart": [
         {
           "date": "2026-07-07",
@@ -1451,7 +1451,7 @@
           "high": 193400,
           "low": 175000,
           "close": 187700,
-          "volume": 84858,
+          "volume": 89419,
           "foreignRatio": 4.1
         }
       ],
@@ -1464,14 +1464,14 @@
       "name": "ACE AI반도체TOP3Plus",
       "market": "ETF",
       "type": "etf",
-      "price": 55465,
+      "price": 55230,
       "previousClose": 58300,
-      "change": -2835,
-      "percent": -4.86,
+      "change": -3070,
+      "percent": -5.27,
       "high": 56735,
       "low": 53720,
-      "volume": 563652,
-      "amount": 31083,
+      "volume": 586588,
+      "amount": 32355,
       "chart": [
         {
           "date": "2026-07-07",
@@ -1739,8 +1739,8 @@
           "open": 54130,
           "high": 56735,
           "low": 53720,
-          "close": 55465,
-          "volume": 563652,
+          "close": 55230,
+          "volume": 586588,
           "foreignRatio": 0.93
         }
       ],
@@ -1753,14 +1753,14 @@
       "name": "RISE 삼성전자SK하이닉스채권혼합50",
       "market": "ETF",
       "type": "etf",
-      "price": 12810,
+      "price": 12790,
       "previousClose": 13325,
-      "change": -515,
-      "percent": -3.86,
+      "change": -535,
+      "percent": -4.02,
       "high": 12975,
       "low": 12770,
-      "volume": 4779548,
-      "amount": 61420,
+      "volume": 5191434,
+      "amount": 66695,
       "chart": [
         {
           "date": "2026-07-07",
@@ -2028,8 +2028,8 @@
           "open": 12875,
           "high": 12975,
           "low": 12770,
-          "close": 12810,
-          "volume": 4779548,
+          "close": 12790,
+          "volume": 5191434,
           "foreignRatio": 0.09
         }
       ],
@@ -2042,14 +2042,14 @@
       "name": "KODEX 코스닥150",
       "market": "ETF",
       "type": "etf",
-      "price": 14350,
+      "price": 14290,
       "previousClose": 14190,
-      "change": 160,
-      "percent": 1.13,
+      "change": 100,
+      "percent": 0.7,
       "high": 14550,
       "low": 13625,
-      "volume": 23377604,
-      "amount": 330926,
+      "volume": 24697842,
+      "amount": 349849,
       "chart": [
         {
           "date": "2026-07-07",
@@ -2317,8 +2317,8 @@
           "open": 13760,
           "high": 14550,
           "low": 13625,
-          "close": 14350,
-          "volume": 23377604,
+          "close": 14290,
+          "volume": 24720914,
           "foreignRatio": 0.63
         }
       ],
