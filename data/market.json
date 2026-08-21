@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-21T06:40:35.431Z",
+  "generatedAt": "2026-08-21T07:28:25.505Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
-    "price": 1386.7,
+    "price": 1385,
     "previousClose": 1394.8,
-    "change": -8.1,
-    "percent": -0.58,
+    "change": -9.8,
+    "percent": -0.7,
     "source": "네이버 금융",
-    "updatedAt": "2026-08-21T15:39:53+09:00"
+    "updatedAt": "2026-08-21T16:26:13+09:00"
   },
   "fearGreed": {
     "score": 52.4571428571429,
@@ -603,8 +603,8 @@
       "percent": 3.87,
       "high": 285000,
       "low": 266000,
-      "volume": 27670164,
-      "amount": 7681731,
+      "volume": 27672192,
+      "amount": 7682302,
       "chart": [
         {
           "date": "2026-07-09",
@@ -873,7 +873,7 @@
           "high": 285000,
           "low": 266000,
           "close": 281500,
-          "volume": 27671483,
+          "volume": 27672192,
           "foreignRatio": 46.86
         }
       ],
@@ -892,8 +892,8 @@
       "percent": 2.31,
       "high": 1773000,
       "low": 1669000,
-      "volume": 4247357,
-      "amount": 7383918,
+      "volume": 4247418,
+      "amount": 7384023,
       "chart": [
         {
           "date": "2026-07-09",
@@ -1162,7 +1162,7 @@
           "high": 1773000,
           "low": 1669000,
           "close": 1730000,
-          "volume": 4247374,
+          "volume": 4247418,
           "foreignRatio": 51.05
         }
       ],
@@ -1181,8 +1181,8 @@
       "percent": -3.93,
       "high": 183400,
       "low": 175600,
-      "volume": 102494,
-      "amount": 18385578,
+      "volume": 102502,
+      "amount": 18387007,
       "chart": [
         {
           "date": "2026-07-09",
@@ -1451,7 +1451,7 @@
           "high": 183400,
           "low": 175600,
           "close": 178600,
-          "volume": 102494,
+          "volume": 102502,
           "foreignRatio": 3.79
         }
       ],
@@ -1759,8 +1759,8 @@
       "percent": 1.52,
       "high": 13760,
       "low": 13360,
-      "volume": 9053137,
-      "amount": 123531,
+      "volume": 9053215,
+      "amount": 123532,
       "chart": [
         {
           "date": "2026-07-09",
@@ -2029,7 +2029,7 @@
           "high": 13760,
           "low": 13360,
           "close": 13715,
-          "volume": 9053137,
+          "volume": 9053215,
           "foreignRatio": 0.1
         }
       ],
@@ -2048,8 +2048,8 @@
       "percent": -5.51,
       "high": 14240,
       "low": 13660,
-      "volume": 33136020,
-      "amount": 458233,
+      "volume": 33166023,
+      "amount": 458647,
       "chart": [
         {
           "date": "2026-07-09",
@@ -2318,7 +2318,7 @@
           "high": 14240,
           "low": 13660,
           "close": 13810,
-          "volume": 33138761,
+          "volume": 33166023,
           "foreignRatio": 0.41
         }
       ],
