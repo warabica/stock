@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T08:26:04.277Z",
+  "generatedAt": "2026-09-25T03:24:24.368Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
@@ -11,14 +11,14 @@
     "updatedAt": "2026-09-24T07:55:20+09:00"
   },
   "fearGreed": {
-    "score": 34.6285714285714,
+    "score": 36.1142857142857,
     "rating": "fear",
     "previousClose": 34.6857142857143,
     "previousWeek": 28.2857142857143,
     "previousMonth": 54.97142857142858,
     "previousYear": 54.57142857142857,
     "source": "CNN",
-    "updatedAt": "2026-09-24T08:09:01+00:00"
+    "updatedAt": "2026-09-24T23:59:59+00:00"
   },
   "instruments": [
     {
