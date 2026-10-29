@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-28T10:26:20.144Z",
+  "generatedAt": "2026-10-29T04:20:55.155Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
-    "price": 1339.3,
-    "previousClose": 1328,
-    "change": 11.3,
-    "percent": 0.85,
+    "price": 1335.7,
+    "previousClose": 1343.5,
+    "change": -7.8,
+    "percent": -0.58,
     "source": "네이버 금융",
-    "updatedAt": "2026-10-28T19:21:33+09:00"
+    "updatedAt": "2026-10-29T13:18:13+09:00"
   },
   "fearGreed": {
-    "score": 34.2857142857143,
+    "score": 35.8285714285714,
     "rating": "fear",
-    "previousClose": 33.6,
-    "previousWeek": 30.25714285714286,
-    "previousMonth": 32.4,
-    "previousYear": 39.34285714285714,
+    "previousClose": 35.8571428571429,
+    "previousWeek": 19.985714285714288,
+    "previousMonth": 31.057142857142857,
+    "previousYear": 42.114285714285714,
     "source": "CNN",
-    "updatedAt": "2026-10-28T10:06:31+00:00"
+    "updatedAt": "2026-10-29T00:00:00+00:00"
   },
   "instruments": [
     {
@@ -27,20 +27,11 @@
       "name": "코스피",
       "market": "KOSPI",
       "type": "index",
-      "price": 6012.44,
-      "previousClose": 5638.34,
-      "change": 374.09999999999945,
-      "percent": 6.6349315578698596,
+      "price": 5914.28,
+      "previousClose": 6012.44,
+      "change": -98.15999999999985,
+      "percent": -1.6326150448070977,
       "chart": [
-        {
-          "date": "2026-09-11",
-          "open": 6802.5,
-          "high": 6948.83,
-          "low": 6802.5,
-          "close": 6909.91,
-          "volume": 268876,
-          "foreignRatio": 0
-        },
         {
           "date": "2026-09-14",
           "open": 6692.61,
@@ -299,12 +290,21 @@
           "high": 6032.28,
           "low": 5745.51,
           "close": 6012.44,
-          "volume": 223200,
+          "volume": 237337,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-10-29",
+          "open": 6017.22,
+          "high": 6100.11,
+          "low": 5817.92,
+          "close": 5914.28,
+          "volume": 203936,
           "foreignRatio": 0
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-10-28"
+      "updatedAt": "2026-10-29"
     },
     {
       "symbol": "KOSDAQ",
@@ -312,20 +312,11 @@
       "name": "코스닥",
       "market": "KOSDAQ",
       "type": "index",
-      "price": 771.28,
-      "previousClose": 743.83,
-      "change": 27.449999999999932,
-      "percent": 3.6903593563045227,
+      "price": 751.33,
+      "previousClose": 771.28,
+      "change": -19.949999999999932,
+      "percent": -2.5866092728969936,
       "chart": [
-        {
-          "date": "2026-09-11",
-          "open": 816.91,
-          "high": 826.53,
-          "low": 816.91,
-          "close": 820.64,
-          "volume": 597677,
-          "foreignRatio": 0
-        },
         {
           "date": "2026-09-14",
           "open": 806.27,
@@ -584,12 +575,21 @@
           "high": 773.28,
           "low": 756.57,
           "close": 771.28,
-          "volume": 533015,
+          "volume": 560627,
+          "foreignRatio": 0
+        },
+        {
+          "date": "2026-10-29",
+          "open": 767.78,
+          "high": 768.75,
+          "low": 741.96,
+          "close": 751.33,
+          "volume": 387087,
           "foreignRatio": 0
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-10-28"
+      "updatedAt": "2026-10-29"
     },
     {
       "symbol": "005930",
@@ -597,24 +597,15 @@
       "name": "삼성전자",
       "market": "KOSPI",
       "type": "equity",
-      "price": 244000,
-      "previousClose": 222000,
-      "change": 22000,
-      "percent": 9.91,
-      "high": 247000,
-      "low": 228000,
-      "volume": 17374543,
-      "amount": 4155505,
+      "price": 230500,
+      "previousClose": 242000,
+      "change": -11500,
+      "percent": -4.75,
+      "high": 249000,
+      "low": 226000,
+      "volume": 18357993,
+      "amount": 4332512,
       "chart": [
-        {
-          "date": "2026-09-11",
-          "open": 258000,
-          "high": 261500,
-          "low": 256500,
-          "close": 259500,
-          "volume": 13939111,
-          "foreignRatio": 46.64
-        },
         {
           "date": "2026-09-14",
           "open": 249500,
@@ -872,13 +863,22 @@
           "open": 231000,
           "high": 247000,
           "low": 228000,
-          "close": 243500,
-          "volume": 17374126,
-          "foreignRatio": 46.15
+          "close": 245000,
+          "volume": 17840544,
+          "foreignRatio": 46.19
+        },
+        {
+          "date": "2026-10-29",
+          "open": 241000,
+          "high": 249000,
+          "low": 226000,
+          "close": 230500,
+          "volume": 18357993,
+          "foreignRatio": 46.19
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-10-28"
+      "updatedAt": "2026-10-29"
     },
     {
       "symbol": "000660",
@@ -886,24 +886,15 @@
       "name": "SK하이닉스",
       "market": "KOSPI",
       "type": "equity",
-      "price": 1499000,
-      "previousClose": 1341000,
-      "change": 158000,
-      "percent": 11.78,
-      "high": 1500000,
-      "low": 1358000,
-      "volume": 4000072,
-      "amount": 5770131,
+      "price": 1529000,
+      "previousClose": 1487000,
+      "change": 42000,
+      "percent": 2.82,
+      "high": 1587000,
+      "low": 1479000,
+      "volume": 3366297,
+      "amount": 5132191,
       "chart": [
-        {
-          "date": "2026-09-11",
-          "open": 1773000,
-          "high": 1827000,
-          "low": 1768000,
-          "close": 1812000,
-          "volume": 2625165,
-          "foreignRatio": 50.47
-        },
         {
           "date": "2026-09-14",
           "open": 1707000,
@@ -1159,15 +1150,24 @@
         {
           "date": "2026-10-28",
           "open": 1390000,
-          "high": 1500000,
+          "high": 1510000,
           "low": 1358000,
-          "close": 1500000,
-          "volume": 3999961,
-          "foreignRatio": 48.61
+          "close": 1508000,
+          "volume": 4244800,
+          "foreignRatio": 48.66
+        },
+        {
+          "date": "2026-10-29",
+          "open": 1511000,
+          "high": 1587000,
+          "low": 1479000,
+          "close": 1529000,
+          "volume": 3366297,
+          "foreignRatio": 48.66
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-10-28"
+      "updatedAt": "2026-10-29"
     },
     {
       "symbol": "087010",
@@ -1175,24 +1175,15 @@
       "name": "펩트론",
       "market": "KOSDAQ",
       "type": "equity",
-      "price": 96600,
-      "previousClose": 95600,
-      "change": 1000,
-      "percent": 1.05,
-      "high": 99600,
-      "low": 93400,
-      "volume": 165259,
-      "amount": 15806090,
+      "price": 95800,
+      "previousClose": 97200,
+      "change": -1400,
+      "percent": -1.44,
+      "high": 99500,
+      "low": 95300,
+      "volume": 81755,
+      "amount": 7899600,
       "chart": [
-        {
-          "date": "2026-09-11",
-          "open": 144900,
-          "high": 148400,
-          "low": 144400,
-          "close": 146000,
-          "volume": 75828,
-          "foreignRatio": 4.63
-        },
         {
           "date": "2026-09-14",
           "open": 141800,
@@ -1450,13 +1441,22 @@
           "open": 94600,
           "high": 99600,
           "low": 93400,
-          "close": 96600,
-          "volume": 165060,
-          "foreignRatio": 5.2
+          "close": 96700,
+          "volume": 166413,
+          "foreignRatio": 5.32
+        },
+        {
+          "date": "2026-10-29",
+          "open": 98300,
+          "high": 99500,
+          "low": 95300,
+          "close": 95800,
+          "volume": 81755,
+          "foreignRatio": 5.32
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-10-28"
+      "updatedAt": "2026-10-29"
     },
     {
       "symbol": "469150",
@@ -1464,24 +1464,15 @@
       "name": "ACE AI반도체TOP3Plus",
       "market": "ETF",
       "type": "etf",
-      "price": 52995,
-      "previousClose": 49130,
-      "change": 3865,
-      "percent": 7.87,
-      "high": 53060,
-      "low": 50115,
-      "volume": 382300,
-      "amount": 19902,
+      "price": 51845,
+      "previousClose": 52995,
+      "change": -1150,
+      "percent": -2.17,
+      "high": 53950,
+      "low": 50485,
+      "volume": 435933,
+      "amount": 22592,
       "chart": [
-        {
-          "date": "2026-09-11",
-          "open": 59475,
-          "high": 59640,
-          "low": 58725,
-          "close": 59285,
-          "volume": 468444,
-          "foreignRatio": 1.68
-        },
         {
           "date": "2026-09-14",
           "open": 57255,
@@ -1741,11 +1732,20 @@
           "low": 50115,
           "close": 52995,
           "volume": 382300,
-          "foreignRatio": 1.22
+          "foreignRatio": 1.19
+        },
+        {
+          "date": "2026-10-29",
+          "open": 52490,
+          "high": 53950,
+          "low": 50485,
+          "close": 51845,
+          "volume": 435933,
+          "foreignRatio": 1.19
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-10-28"
+      "updatedAt": "2026-10-29"
     },
     {
       "symbol": "0162Z0",
@@ -1753,288 +1753,288 @@
       "name": "RISE 삼성전자SK하이닉스채권혼합50",
       "market": "ETF",
       "type": "etf",
-      "price": 12925,
-      "previousClose": 12290,
-      "change": 635,
-      "percent": 5.17,
-      "high": 12925,
-      "low": 12410,
-      "volume": 8044740,
-      "amount": 102455,
+      "price": 12740,
+      "previousClose": 12835,
+      "change": -95,
+      "percent": -0.74,
+      "high": 13090,
+      "low": 12585,
+      "volume": 6989709,
+      "amount": 89514,
       "chart": [
         {
-          "date": "2026-09-11",
-          "open": 13510,
-          "high": 13650,
-          "low": 13480,
-          "close": 13600,
-          "volume": 5357218,
-          "foreignRatio": 0.1
-        },
-        {
           "date": "2026-09-14",
-          "open": 13275,
-          "high": 13400,
-          "low": 13220,
-          "close": 13220,
-          "volume": 5408730,
+          "open": 13181,
+          "high": 13305,
+          "low": 13127,
+          "close": 13127,
+          "volume": 5446656,
           "foreignRatio": 0.1
         },
         {
           "date": "2026-09-15",
-          "open": 13225,
-          "high": 13345,
-          "low": 13155,
-          "close": 13205,
-          "volume": 4864627,
+          "open": 13132,
+          "high": 13252,
+          "low": 13063,
+          "close": 13112,
+          "volume": 4898738,
           "foreignRatio": 0.09
         },
         {
           "date": "2026-09-16",
-          "open": 13210,
-          "high": 13425,
-          "low": 13200,
-          "close": 13390,
-          "volume": 3884088,
+          "open": 13117,
+          "high": 13330,
+          "low": 13107,
+          "close": 13295,
+          "volume": 3911323,
           "foreignRatio": 0.11
         },
         {
           "date": "2026-09-17",
-          "open": 13520,
-          "high": 13545,
-          "low": 13370,
-          "close": 13390,
-          "volume": 3926814,
+          "open": 13425,
+          "high": 13449,
+          "low": 13276,
+          "close": 13295,
+          "volume": 3954349,
           "foreignRatio": 0.09
         },
         {
           "date": "2026-09-18",
-          "open": 13630,
-          "high": 13720,
-          "low": 13590,
-          "close": 13695,
-          "volume": 4002273,
+          "open": 13534,
+          "high": 13623,
+          "low": 13494,
+          "close": 13598,
+          "volume": 4030337,
           "foreignRatio": 0.12
         },
         {
           "date": "2026-09-21",
-          "open": 13760,
-          "high": 13935,
-          "low": 13760,
-          "close": 13900,
-          "volume": 4314756,
+          "open": 13663,
+          "high": 13837,
+          "low": 13663,
+          "close": 13803,
+          "volume": 4345011,
           "foreignRatio": 0.11
         },
         {
           "date": "2026-09-22",
-          "open": 14085,
-          "high": 14145,
-          "low": 13850,
-          "close": 13890,
-          "volume": 6954553,
+          "open": 13986,
+          "high": 14046,
+          "low": 13753,
+          "close": 13792,
+          "volume": 7003318,
           "foreignRatio": 0.14
         },
         {
           "date": "2026-09-23",
-          "open": 14070,
-          "high": 14095,
-          "low": 13935,
-          "close": 14030,
-          "volume": 4298989,
+          "open": 13971,
+          "high": 13996,
+          "low": 13837,
+          "close": 13932,
+          "volume": 4329133,
           "foreignRatio": 0.12
         },
         {
           "date": "2026-09-28",
-          "open": 13950,
-          "high": 13995,
-          "low": 13705,
-          "close": 13715,
-          "volume": 4364805,
+          "open": 13852,
+          "high": 13897,
+          "low": 13609,
+          "close": 13619,
+          "volume": 4395411,
           "foreignRatio": 0.09
         },
         {
           "date": "2026-09-29",
-          "open": 13640,
-          "high": 13835,
-          "low": 13640,
-          "close": 13790,
-          "volume": 4286966,
+          "open": 13544,
+          "high": 13737,
+          "low": 13544,
+          "close": 13693,
+          "volume": 4317026,
           "foreignRatio": 0.11
         },
         {
           "date": "2026-09-30",
-          "open": 13835,
-          "high": 13910,
-          "low": 13715,
-          "close": 13755,
-          "volume": 3677696,
+          "open": 13738,
+          "high": 13812,
+          "low": 13619,
+          "close": 13658,
+          "volume": 3703484,
           "foreignRatio": 0.1
         },
         {
           "date": "2026-10-01",
-          "open": 13710,
-          "high": 13930,
-          "low": 13635,
-          "close": 13930,
-          "volume": 4376391,
+          "open": 13614,
+          "high": 13833,
+          "low": 13540,
+          "close": 13833,
+          "volume": 4407078,
           "foreignRatio": 0.13
         },
         {
           "date": "2026-10-02",
-          "open": 13895,
-          "high": 13990,
-          "low": 13865,
-          "close": 13940,
-          "volume": 3746382,
+          "open": 13797,
+          "high": 13891,
+          "low": 13767,
+          "close": 13841,
+          "volume": 3772651,
           "foreignRatio": 0.12
         },
         {
           "date": "2026-10-06",
-          "open": 13960,
-          "high": 13960,
-          "low": 13740,
-          "close": 13775,
-          "volume": 4513901,
+          "open": 13862,
+          "high": 13862,
+          "low": 13644,
+          "close": 13678,
+          "volume": 4545552,
           "foreignRatio": 0.12
         },
         {
           "date": "2026-10-07",
-          "open": 13660,
-          "high": 13880,
-          "low": 13640,
-          "close": 13660,
-          "volume": 4126510,
+          "open": 13564,
+          "high": 13782,
+          "low": 13544,
+          "close": 13564,
+          "volume": 4155445,
           "foreignRatio": 0.12
         },
         {
           "date": "2026-10-08",
-          "open": 13680,
-          "high": 13715,
-          "low": 13505,
-          "close": 13560,
-          "volume": 3811016,
+          "open": 13584,
+          "high": 13618,
+          "low": 13410,
+          "close": 13465,
+          "volume": 3837739,
           "foreignRatio": 0.09
         },
         {
           "date": "2026-10-12",
-          "open": 13395,
-          "high": 13420,
-          "low": 13155,
-          "close": 13190,
-          "volume": 5645719,
+          "open": 13301,
+          "high": 13326,
+          "low": 13063,
+          "close": 13097,
+          "volume": 5685307,
           "foreignRatio": 0.11
         },
         {
           "date": "2026-10-13",
-          "open": 12885,
-          "high": 12980,
-          "low": 12530,
-          "close": 12615,
-          "volume": 10443325,
+          "open": 12795,
+          "high": 12889,
+          "low": 12442,
+          "close": 12526,
+          "volume": 10516554,
           "foreignRatio": 0.11
         },
         {
           "date": "2026-10-14",
-          "open": 12630,
-          "high": 12845,
-          "low": 12480,
-          "close": 12580,
-          "volume": 6214152,
+          "open": 12541,
+          "high": 12755,
+          "low": 12392,
+          "close": 12492,
+          "volume": 6257726,
           "foreignRatio": 0.11
         },
         {
           "date": "2026-10-15",
-          "open": 12055,
-          "high": 12200,
-          "low": 11775,
-          "close": 11910,
-          "volume": 10143349,
+          "open": 11970,
+          "high": 12114,
+          "low": 11692,
+          "close": 11827,
+          "volume": 10214474,
           "foreignRatio": 0.12
         },
         {
           "date": "2026-10-16",
-          "open": 12060,
-          "high": 12225,
-          "low": 11875,
-          "close": 11980,
-          "volume": 6933448,
+          "open": 11975,
+          "high": 12139,
+          "low": 11791,
+          "close": 11895,
+          "volume": 6982065,
           "foreignRatio": 0.1
         },
         {
           "date": "2026-10-19",
-          "open": 11705,
-          "high": 12090,
-          "low": 11705,
-          "close": 12090,
-          "volume": 7366803,
+          "open": 11622,
+          "high": 12004,
+          "low": 11622,
+          "close": 12004,
+          "volume": 7418459,
           "foreignRatio": 0.1
         },
         {
           "date": "2026-10-20",
-          "open": 12000,
-          "high": 12045,
-          "low": 11710,
-          "close": 11800,
-          "volume": 6205276,
+          "open": 11915,
+          "high": 11960,
+          "low": 11627,
+          "close": 11717,
+          "volume": 6248787,
           "foreignRatio": 0.13
         },
         {
           "date": "2026-10-21",
-          "open": 12005,
-          "high": 12320,
-          "low": 12000,
-          "close": 12160,
-          "volume": 6373407,
+          "open": 11921,
+          "high": 12233,
+          "low": 11916,
+          "close": 12074,
+          "volume": 6418097,
           "foreignRatio": 0.11
         },
         {
           "date": "2026-10-22",
-          "open": 12045,
-          "high": 12220,
-          "low": 11805,
-          "close": 11860,
-          "volume": 4676710,
+          "open": 11960,
+          "high": 12134,
+          "low": 11722,
+          "close": 11777,
+          "volume": 4709503,
           "foreignRatio": 0.12
         },
         {
           "date": "2026-10-23",
-          "open": 11660,
-          "high": 12055,
-          "low": 11600,
-          "close": 12055,
-          "volume": 6629103,
+          "open": 11578,
+          "high": 11970,
+          "low": 11519,
+          "close": 11970,
+          "volume": 6675586,
           "foreignRatio": 0.13
         },
         {
           "date": "2026-10-26",
-          "open": 11960,
-          "high": 12125,
-          "low": 11950,
-          "close": 11985,
-          "volume": 4086316,
+          "open": 11876,
+          "high": 12040,
+          "low": 11866,
+          "close": 11901,
+          "volume": 4114969,
           "foreignRatio": 0.13
         },
         {
           "date": "2026-10-27",
-          "open": 12270,
-          "high": 12415,
-          "low": 12240,
-          "close": 12290,
-          "volume": 4577465,
+          "open": 12184,
+          "high": 12328,
+          "low": 12154,
+          "close": 12203,
+          "volume": 4609562,
           "foreignRatio": 0.13
         },
         {
           "date": "2026-10-28",
-          "open": 12495,
-          "high": 12925,
-          "low": 12410,
-          "close": 12925,
-          "volume": 8044740,
-          "foreignRatio": 0.13
+          "open": 12407,
+          "high": 12834,
+          "low": 12323,
+          "close": 12834,
+          "volume": 8103338,
+          "foreignRatio": 0.11
+        },
+        {
+          "date": "2026-10-29",
+          "open": 12820,
+          "high": 13090,
+          "low": 12585,
+          "close": 12740,
+          "volume": 6989709,
+          "foreignRatio": 0.11
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-10-28"
+      "updatedAt": "2026-10-29"
     },
     {
       "symbol": "229200",
@@ -2042,24 +2042,15 @@
       "name": "KODEX 코스닥150",
       "market": "ETF",
       "type": "etf",
-      "price": 12795,
-      "previousClose": 12260,
-      "change": 535,
-      "percent": 4.36,
-      "high": 12885,
-      "low": 12455,
-      "volume": 23576818,
-      "amount": 299935,
+      "price": 12420,
+      "previousClose": 12795,
+      "change": -375,
+      "percent": -2.93,
+      "high": 12785,
+      "low": 12255,
+      "volume": 24603504,
+      "amount": 306424,
       "chart": [
-        {
-          "date": "2026-09-11",
-          "open": 13905,
-          "high": 14015,
-          "low": 13760,
-          "close": 13840,
-          "volume": 36231078,
-          "foreignRatio": 0.67
-        },
         {
           "date": "2026-09-14",
           "open": 13510,
@@ -2318,12 +2309,21 @@
           "high": 12885,
           "low": 12455,
           "close": 12795,
-          "volume": 23576818,
-          "foreignRatio": 1.39
+          "volume": 26304818,
+          "foreignRatio": 1.33
+        },
+        {
+          "date": "2026-10-29",
+          "open": 12700,
+          "high": 12785,
+          "low": 12255,
+          "close": 12420,
+          "volume": 24603504,
+          "foreignRatio": 1.33
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-10-28"
+      "updatedAt": "2026-10-29"
     }
   ]
 }
