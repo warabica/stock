@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-26T17:30:45.353Z",
+  "generatedAt": "2026-11-27T06:42:04.323Z",
   "source": "네이버 금융",
   "exchange": {
     "symbol": "USD/KRW",
-    "price": 1344.3,
-    "previousClose": 1345.5,
-    "change": -1.2,
-    "percent": -0.09,
+    "price": 1337,
+    "previousClose": 1344,
+    "change": -7,
+    "percent": -0.52,
     "source": "네이버 금융",
-    "updatedAt": "2026-11-27T02:29:08+09:00"
+    "updatedAt": "2026-11-27T15:40:53+09:00"
   },
   "fearGreed": {
     "score": 14.9967450271248,
@@ -27,20 +27,11 @@
       "name": "코스피",
       "market": "KOSPI",
       "type": "index",
-      "price": 4711.21,
-      "previousClose": 4697.51,
-      "change": 13.699999999999818,
-      "percent": 0.2916438709018143,
+      "price": 4915.68,
+      "previousClose": 4711.21,
+      "change": 204.47000000000025,
+      "percent": 4.340073993729854,
       "chart": [
-        {
-          "date": "2026-10-16",
-          "open": 5653.99,
-          "high": 5809.94,
-          "low": 5590.33,
-          "close": 5668.05,
-          "volume": 298850,
-          "foreignRatio": 0
-        },
         {
           "date": "2026-10-19",
           "open": 5488.41,
@@ -301,10 +292,19 @@
           "close": 4711.21,
           "volume": 170996,
           "foreignRatio": 0
+        },
+        {
+          "date": "2026-11-27",
+          "open": 4728.8,
+          "high": 4922.94,
+          "low": 4682.43,
+          "close": 4915.68,
+          "volume": 175941,
+          "foreignRatio": 0
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-11-26"
+      "updatedAt": "2026-11-27"
     },
     {
       "symbol": "KOSDAQ",
@@ -312,20 +312,11 @@
       "name": "코스닥",
       "market": "KOSDAQ",
       "type": "index",
-      "price": 655.71,
-      "previousClose": 650.64,
-      "change": 5.07000000000005,
-      "percent": 0.7792327554408045,
+      "price": 708.99,
+      "previousClose": 655.71,
+      "change": 53.27999999999997,
+      "percent": 8.125543304204598,
       "chart": [
-        {
-          "date": "2026-10-16",
-          "open": 772.17,
-          "high": 807.54,
-          "low": 764.97,
-          "close": 794.78,
-          "volume": 466392,
-          "foreignRatio": 0
-        },
         {
           "date": "2026-10-19",
           "open": 773.06,
@@ -586,10 +577,19 @@
           "close": 655.71,
           "volume": 416816,
           "foreignRatio": 0
+        },
+        {
+          "date": "2026-11-27",
+          "open": 664.52,
+          "high": 710.9,
+          "low": 664.52,
+          "close": 708.99,
+          "volume": 486076,
+          "foreignRatio": 0
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-11-26"
+      "updatedAt": "2026-11-27"
     },
     {
       "symbol": "005930",
@@ -597,24 +597,15 @@
       "name": "삼성전자",
       "market": "KOSPI",
       "type": "equity",
-      "price": 171500,
-      "previousClose": 170700,
-      "change": 800,
-      "percent": 0.47,
-      "high": 176700,
-      "low": 170700,
-      "volume": 13629385,
-      "amount": 2364690,
+      "price": 179100,
+      "previousClose": 171300,
+      "change": 7800,
+      "percent": 4.55,
+      "high": 179900,
+      "low": 169000,
+      "volume": 13598374,
+      "amount": 2393741,
       "chart": [
-        {
-          "date": "2026-10-16",
-          "open": 215000,
-          "high": 222500,
-          "low": 210500,
-          "close": 217000,
-          "volume": 18908560,
-          "foreignRatio": 45.99
-        },
         {
           "date": "2026-10-19",
           "open": 207000,
@@ -873,12 +864,21 @@
           "high": 176700,
           "low": 170700,
           "close": 171500,
-          "volume": 13629385,
+          "volume": 13966982,
+          "foreignRatio": 45.84
+        },
+        {
+          "date": "2026-11-27",
+          "open": 171200,
+          "high": 179900,
+          "low": 169000,
+          "close": 179100,
+          "volume": 13598374,
           "foreignRatio": 45.84
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-11-26"
+      "updatedAt": "2026-11-27"
     },
     {
       "symbol": "000660",
@@ -886,24 +886,15 @@
       "name": "SK하이닉스",
       "market": "KOSPI",
       "type": "equity",
-      "price": 1055000,
-      "previousClose": 1030000,
-      "change": 25000,
-      "percent": 2.43,
-      "high": 1098000,
-      "low": 1041000,
-      "volume": 3417741,
-      "amount": 3650749,
+      "price": 1110000,
+      "previousClose": 1053000,
+      "change": 57000,
+      "percent": 5.41,
+      "high": 1110000,
+      "low": 1022000,
+      "volume": 2872565,
+      "amount": 3099152,
       "chart": [
-        {
-          "date": "2026-10-16",
-          "open": 1290000,
-          "high": 1325000,
-          "low": 1247000,
-          "close": 1265000,
-          "volume": 4561066,
-          "foreignRatio": 48.82
-        },
         {
           "date": "2026-10-19",
           "open": 1212000,
@@ -1162,12 +1153,21 @@
           "high": 1098000,
           "low": 1041000,
           "close": 1055000,
-          "volume": 3417741,
-          "foreignRatio": 49.25
+          "volume": 3529393,
+          "foreignRatio": 49.23
+        },
+        {
+          "date": "2026-11-27",
+          "open": 1040000,
+          "high": 1110000,
+          "low": 1022000,
+          "close": 1110000,
+          "volume": 2872565,
+          "foreignRatio": 49.23
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-11-26"
+      "updatedAt": "2026-11-27"
     },
     {
       "symbol": "087010",
@@ -1175,24 +1175,15 @@
       "name": "펩트론",
       "market": "KOSDAQ",
       "type": "equity",
-      "price": 84700,
-      "previousClose": 82600,
-      "change": 2100,
-      "percent": 2.54,
-      "high": 89400,
-      "low": 81700,
-      "volume": 134653,
-      "amount": 11611948,
+      "price": 97500,
+      "previousClose": 84300,
+      "change": 13200,
+      "percent": 15.66,
+      "high": 98700,
+      "low": 88500,
+      "volume": 303636,
+      "amount": 28454047,
       "chart": [
-        {
-          "date": "2026-10-16",
-          "open": 88800,
-          "high": 103000,
-          "low": 87400,
-          "close": 100500,
-          "volume": 410861,
-          "foreignRatio": 5.01
-        },
         {
           "date": "2026-10-19",
           "open": 99400,
@@ -1452,11 +1443,20 @@
           "low": 81700,
           "close": 84700,
           "volume": 134653,
-          "foreignRatio": 5.46
+          "foreignRatio": 5.67
+        },
+        {
+          "date": "2026-11-27",
+          "open": 89000,
+          "high": 98700,
+          "low": 88500,
+          "close": 97500,
+          "volume": 303636,
+          "foreignRatio": 5.67
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-11-26"
+      "updatedAt": "2026-11-27"
     },
     {
       "symbol": "469150",
@@ -1464,24 +1464,15 @@
       "name": "ACE AI반도체TOP3Plus",
       "market": "ETF",
       "type": "etf",
-      "price": 37285,
-      "previousClose": 36800,
-      "change": 485,
-      "percent": 1.32,
-      "high": 38730,
-      "low": 37090,
-      "volume": 166628,
-      "amount": 6300,
+      "price": 39740,
+      "previousClose": 37285,
+      "change": 2455,
+      "percent": 6.58,
+      "high": 39860,
+      "low": 36695,
+      "volume": 167963,
+      "amount": 6467,
       "chart": [
-        {
-          "date": "2026-10-16",
-          "open": 49780,
-          "high": 51630,
-          "low": 48420,
-          "close": 50605,
-          "volume": 437338,
-          "foreignRatio": 1.22
-        },
         {
           "date": "2026-10-19",
           "open": 47965,
@@ -1741,11 +1732,20 @@
           "low": 37090,
           "close": 37285,
           "volume": 166628,
-          "foreignRatio": 1.41
+          "foreignRatio": 1.31
+        },
+        {
+          "date": "2026-11-27",
+          "open": 36925,
+          "high": 39860,
+          "low": 36695,
+          "close": 39740,
+          "volume": 167963,
+          "foreignRatio": 1.31
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-11-26"
+      "updatedAt": "2026-11-27"
     },
     {
       "symbol": "0162Z0",
@@ -1753,24 +1753,15 @@
       "name": "RISE 삼성전자SK하이닉스채권혼합50",
       "market": "ETF",
       "type": "etf",
-      "price": 10855,
-      "previousClose": 10770,
-      "change": 85,
-      "percent": 0.79,
-      "high": 11040,
-      "low": 10805,
-      "volume": 5257865,
-      "amount": 57464,
+      "price": 11165,
+      "previousClose": 10855,
+      "change": 310,
+      "percent": 2.86,
+      "high": 11185,
+      "low": 10785,
+      "volume": 5253160,
+      "amount": 57829,
       "chart": [
-        {
-          "date": "2026-10-16",
-          "open": 11975,
-          "high": 12139,
-          "low": 11791,
-          "close": 11895,
-          "volume": 6982065,
-          "foreignRatio": 0.1
-        },
         {
           "date": "2026-10-19",
           "open": 11622,
@@ -2029,12 +2020,21 @@
           "high": 11040,
           "low": 10805,
           "close": 10855,
-          "volume": 5257865,
-          "foreignRatio": 0.08
+          "volume": 5260058,
+          "foreignRatio": 0.06
+        },
+        {
+          "date": "2026-11-27",
+          "open": 10850,
+          "high": 11185,
+          "low": 10785,
+          "close": 11165,
+          "volume": 5253160,
+          "foreignRatio": 0.06
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-11-26"
+      "updatedAt": "2026-11-27"
     },
     {
       "symbol": "229200",
@@ -2042,24 +2042,15 @@
       "name": "KODEX 코스닥150",
       "market": "ETF",
       "type": "etf",
-      "price": 10850,
-      "previousClose": 10735,
-      "change": 115,
-      "percent": 1.07,
-      "high": 11240,
-      "low": 10785,
-      "volume": 54714068,
-      "amount": 604501,
+      "price": 11925,
+      "previousClose": 10850,
+      "change": 1075,
+      "percent": 9.91,
+      "high": 11990,
+      "low": 10960,
+      "volume": 108337657,
+      "amount": 1262174,
       "chart": [
-        {
-          "date": "2026-10-16",
-          "open": 12900,
-          "high": 13670,
-          "low": 12760,
-          "close": 13370,
-          "volume": 50729795,
-          "foreignRatio": 1.21
-        },
         {
           "date": "2026-10-19",
           "open": 13050,
@@ -2318,12 +2309,21 @@
           "high": 11240,
           "low": 10785,
           "close": 10850,
-          "volume": 54714068,
-          "foreignRatio": 1.02
+          "volume": 56184068,
+          "foreignRatio": 1.17
+        },
+        {
+          "date": "2026-11-27",
+          "open": 10970,
+          "high": 11990,
+          "low": 10960,
+          "close": 11925,
+          "volume": 108337657,
+          "foreignRatio": 1.17
         }
       ],
       "source": "네이버 금융",
-      "updatedAt": "2026-11-26"
+      "updatedAt": "2026-11-27"
     }
   ]
 }
